@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Gerencial - Fundação Copel</title>
+  
+  <!-- RemixIcon CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SIDEBAR MENU (LATERAL ESQUERDA)
+       ========================================================================== -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="brand-icon">
+        <img src="https://media.licdn.com/dms/image/v2/D4D0BAQFAP-mnKWwtyA/company-logo_200_200/B4DZ.kwt8aJ8AI-/0/1785175662625/fcopel_logo?e=1786579200&v=beta&t=feEJdiLc_mqZ-_i9DMt-ZUpRsrB7a4GC9G5p34TMZdE" alt="Fundação Copel Logo">
+      </div>
+      <div class="brand-info">
+        <h1>Fundação Copel</h1>
+        <p>Painel Gerencial Executivo</p>
+      </div>
+    </div>
+
+    <div class="sidebar-menu">
+      <div class="menu-label">Menu de Gráficos</div>
+
+      <a class="nav-item active" data-page="page-financeiro">
+        <i class="ri-line-chart-line"></i>
+        <span>Financeiro</span>
+      </a>
+
+      <a class="nav-item" data-page="page-participantes">
+        <i class="ri-user-star-line"></i>
+        <span>Participante e Patrocinador</span>
+      </a>
+
+      <a class="nav-item" data-page="page-movimentacoes">
+        <i class="ri-exchange-funds-line"></i>
+        <span>Movimentações</span>
+      </a>
+
+      <a class="nav-item" data-page="page-emprestimos">
+        <i class="ri-hand-coin-line"></i>
+        <span>Empréstimos</span>
+      </a>
+    </div>
+
+    <div class="sidebar-footer">
+      <div class="entity-badge">
+        <div class="entity-avatar">FC</div>
+        <div class="entity-details">
+          <span class="entity-name">Fundação Copel</span>
+          <span class="entity-status">
+            <span class="status-dot"></span> BI Inteligente
+          </span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       MAIN CONTENT WRAPPER
+       ========================================================================== -->
+  <div class="main-wrapper">
+
+    <!-- Top Header -->
+    <header class="top-header">
+      <div class="header-title">
+        <h2 id="currentPageTitle">Financeiro</h2>
+        <p>Acompanhamento financeiro, patrimonial e atuarial</p>
+      </div>
+
+      <div class="header-actions">
+        <button class="btn-icon" id="themeToggleBtn" title="Alternar Tema Claro/Escuro">
+          <i class="ri-sun-line"></i>
+        </button>
+        
+        <!-- Fundação Copel Logo in Top Right Header -->
+        <img src="https://media.licdn.com/dms/image/v2/D4D0BAQFAP-mnKWwtyA/company-logo_200_200/B4DZ.kwt8aJ8AI-/0/1785175662625/fcopel_logo?e=1786579200&v=beta&t=feEJdiLc_mqZ-_i9DMt-ZUpRsrB7a4GC9G5p34TMZdE" alt="Logo Fundação Copel" class="header-logo">
+      </div>
+    </header>
+
+    <!-- Content Container -->
+    <main class="content-container">
+
+      <!-- ====================================================================
+           PÁGINA 1: FINANCEIRO
+           ==================================================================== -->
+      <section id="page-financeiro" class="page-view active">
+        
+        <!-- Filter Bar for Page 1 -->
+        <div class="page-filter-bar">
+          <div class="filter-group">
+            <label for="filterFinanceiroPlan"><i class="ri-filter-3-line"></i> Seleção de Plano:</label>
+            <div class="filter-select-wrapper">
+              <select id="filterFinanceiroPlan" class="custom-select">
+                <option value="Plano III" selected>Plano III</option>
+                <option value="Plano Unificado">Plano Unificado</option>
+                <option value="Plano IV">Plano IV</option>
+                <option value="Plano Família">Plano Família</option>
+                <option value="Plano Pecúlio">Plano Pecúlio</option>
+              </select>
+              <i class="ri-arrow-down-s-line select-arrow"></i>
+            </div>
+          </div>
+          <span style="font-size: 12px; color: var(--text-muted);">Aplica-se aos KPI Cards e aos 3 gráficos de linha abaixo</span>
+        </div>
+
+        <!-- KPI Summary Cards -->
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-header">
+              <span class="kpi-title">Patrimônio Social</span>
+              <div class="kpi-icon"><i class="ri-bank-line"></i></div>
+            </div>
+            <div class="kpi-value" id="kpiPatrimonioVal">R$ --</div>
+            <div class="kpi-subtext positive">
+              <i class="ri-arrow-up-line"></i> Posição Recente
+            </div>
+          </div>
+
+          <div class="kpi-card emerald">
+            <div class="kpi-header">
+              <span class="kpi-title">Superávit / Déficit</span>
+              <div class="kpi-icon"><i class="ri-scales-3-line"></i></div>
+            </div>
+            <div class="kpi-value" id="kpiSuperavitVal">R$ --</div>
+            <div class="kpi-subtext positive">
+              <i class="ri-shield-check-line"></i> Equilíbrio Financeiro
+            </div>
+          </div>
+
+          <div class="kpi-card amber">
+            <div class="kpi-header">
+              <span class="kpi-title">Contribuição Mensal</span>
+              <div class="kpi-icon"><i class="ri-coin-line"></i></div>
+            </div>
+            <div class="kpi-value" id="kpiContribVal">R$ --</div>
+            <div class="kpi-subtext">
+              <i class="ri-history-line"></i> Entradas Recentes
+            </div>
+          </div>
+
+          <div class="kpi-card purple">
+            <div class="kpi-header">
+              <span class="kpi-title">Taxa Atuarial</span>
+              <div class="kpi-icon"><i class="ri-percent-line"></i></div>
+            </div>
+            <div class="kpi-value" id="kpiTaxaVal">--%</div>
+            <div class="kpi-subtext positive" id="kpiTaxaSub">
+              <i class="ri-check-double-line"></i> Meta Atuarial Vigente
+            </div>
+          </div>
+        </div>
+
+        <!-- 2x2 GRID CONTAINING THE 4 LINE CHARTS -->
+        <div class="grid-2x2">
+          
+          <!-- Chart 1: Patrimônio por Plano -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-funds-line" style="color: var(--accent-blue);"></i> Patrimônio por Plano</h3>
+                <p>Eixo X: Data | Eixo Y: Descrição (Patrimônio, Superávit, Déficit)</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartPatrimonio"></canvas>
+            </div>
+          </div>
+
+          <!-- Chart 2: Contrib. e Benef. -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-hand-heart-line" style="color: var(--accent-emerald);"></i> Contrib. e Benef.</h3>
+                <p>Eixo X: Data | Eixo Y: Descrição (Contribuição vs Benefício)</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartContribBenef"></canvas>
+            </div>
+          </div>
+
+          <!-- Chart 3: Contribuição Média -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-bar-chart-grouped-line" style="color: var(--accent-amber);"></i> Contribuição Média</h3>
+                <p>Eixo X: Data | Eixo Y: Descrição (Contribuição Média por Plano)</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartContribMedia"></canvas>
+            </div>
+          </div>
+
+          <!-- Chart 4: Taxa Atuarial -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-pulse-line" style="color: var(--accent-purple);"></i> Taxa Atuarial</h3>
+                <p>Eixo X: Ano | Eixo Y: Taxa (%) | Legenda: Plano</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartTaxaAtuarial"></canvas>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           PÁGINA 2: PARTICIPANTE E PATROCINADOR
+           ==================================================================== -->
+      <section id="page-participantes" class="page-view">
+        
+        <!-- Filter Bar for Page 2 -->
+        <div class="page-filter-bar">
+          <div class="filter-group">
+            <label for="filterParticipantesPlan"><i class="ri-filter-3-line"></i> Filtrar por Plano:</label>
+            <div class="filter-select-wrapper">
+              <select id="filterParticipantesPlan" class="custom-select">
+                <option value="Plano III" selected>Plano III</option>
+                <option value="Plano Unificado">Plano Unificado</option>
+                <option value="Plano IV">Plano IV</option>
+                <option value="Plano Família">Plano Família</option>
+                <option value="Pecúlio">Pecúlio</option>
+              </select>
+              <i class="ri-arrow-down-s-line select-arrow"></i>
+            </div>
+          </div>
+          <span style="font-size: 12px; color: var(--text-muted);">Aplica-se aos gráficos de Participantes, Patrocinadoras e Concessões</span>
+        </div>
+
+        <div class="grid-2-col">
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-user-shared-line" style="color: var(--accent-blue);"></i> Tipo de Participantes</h3>
+                <p>Distribuição anual por perfil no plano selecionado</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartTipoParticipantes"></canvas>
+            </div>
+          </div>
+
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-building-line" style="color: var(--accent-purple);"></i> Participante por Patrocinador</h3>
+                <p>Gráfico de barras empilhadas por empresa patrocinadora</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartPatroc"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-full">
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-user-add-line" style="color: var(--accent-emerald);"></i> Concessões vs Adesões</h3>
+                <p>Eixo X: Data | Eixo Y: Descrição (Concessões vs Adesões) do plano selecionado</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartConcessoesAdesoes"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           PÁGINA 3: MOVIMENTAÇÕES
+           ==================================================================== -->
+      <section id="page-movimentacoes" class="page-view">
+        <div class="grid-2-col">
+          
+          <!-- Resgates e Aportes -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-arrow-left-right-line" style="color: var(--accent-amber);"></i> Resgates e Aportes</h3>
+                <p>Movimentações do Plano III</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartResgatesAportes"></canvas>
+            </div>
+          </div>
+
+          <!-- Portabilidade com Eixo Secundário (Range -5 a 10) -->
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-door-open-line" style="color: var(--accent-cyan);"></i> Portabilidade</h3>
+                <p>Plano III</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartPortabilidade"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Opções por Institutos (Filtro Exclusivo) + Tabela Médias de Benefício -->
+        <div class="grid-2-col">
+          
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-git-branch-line" style="color: var(--accent-purple);"></i> Opções por Institutos</h3>
+                <p>Evolução por Tipo de Participante</p>
+              </div>
+              <div class="chart-controls">
+                <div class="filter-select-wrapper">
+                  <label for="filterOpcoesInstitutosPlan">Plano:</label>
+                  <select id="filterOpcoesInstitutosPlan" class="custom-select">
+                    <option value="Plano III" selected>Plano III</option>
+                    <option value="Plano Unificado">Plano Unificado</option>
+                    <option value="Plano IV">Plano IV</option>
+                  </select>
+                  <i class="ri-arrow-down-s-line select-arrow"></i>
+                </div>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartOpcoesInstitutos"></canvas>
+            </div>
+          </div>
+
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-time-line" style="color: var(--accent-emerald);"></i> Médias de Benefício & Tempo de Concessão</h3>
+                <p>Indicadores consolidados por plano</p>
+              </div>
+            </div>
+            <div class="table-card-body">
+              <table class="custom-table">
+                <thead>
+                  <tr>
+                    <th>Plano</th>
+                    <th>Tempo Médio em Benefício</th>
+                    <th>Valor Médio de Benefício</th>
+                  </tr>
+                </thead>
+                <tbody id="beneficiosTableBody">
+                  <!-- Dynamic Content -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           PÁGINA 4: EMPRÉSTIMOS
+           ==================================================================== -->
+      <section id="page-emprestimos" class="page-view">
+        <div class="grid-2-col">
+          
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-wallet-3-line" style="color: var(--accent-blue);"></i> Valor das Carteiras</h3>
+                <p>Segmentos: Unificado, Capitalização e Mutualismo</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartCarteiras"></canvas>
+            </div>
+          </div>
+
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-error-warning-line" style="color: var(--accent-rose);"></i> Inadimplência</h3>
+                <p>Valores na grandeza de milhões (R$ M)</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartInadimplencia"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-2-col">
+          
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-file-text-line" style="color: var(--accent-emerald);"></i> Contrato e Concessão</h3>
+                <p>Evolução mensal de contratos ativos e concessões efetuadas</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartContratoConcessao"></canvas>
+            </div>
+          </div>
+
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-folder-add-line" style="color: var(--accent-amber);"></i> Contratos</h3>
+                <p>Contratos Novos vs Reformas</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartContratos"></canvas>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Load Embedded Data Script -->
+  <script src="data.js"></script>
+  <!-- Load Main App Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
