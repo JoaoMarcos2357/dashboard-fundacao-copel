@@ -330,7 +330,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 6206346263.49,
       "Plano III": 5742595433.54,
       "Plano IV": null,
-      "Plano Família": 0,
+      "Plano Família": 64493088.215,
       "Plano Pecúlio": 35100859.01
     },
     {
@@ -357,7 +357,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 6213689588.71,
       "Plano III": 5714923891.76,
       "Plano IV": null,
-      "Plano Família": 0,
+      "Plano Família": 64493088.215,
       "Plano Pecúlio": 34621879.63
     },
     {
@@ -384,7 +384,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 6263935730,
       "Plano III": 5722311187.7,
       "Plano IV": null,
-      "Plano Família": 0,
+      "Plano Família": 64493088.215,
       "Plano Pecúlio": 33443335.41
     },
     {
@@ -411,7 +411,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 6303110102.66,
       "Plano III": 5804962513.72,
       "Plano IV": null,
-      "Plano Família": 0,
+      "Plano Família": 64493088.215,
       "Plano Pecúlio": 33411599.91
     },
     {
@@ -438,7 +438,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 6343911349.02,
       "Plano III": 5892346894.21,
       "Plano IV": null,
-      "Plano Família": 0,
+      "Plano Família": 64493088.215,
       "Plano Pecúlio": 31208214.42
     },
     {
@@ -465,7 +465,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 6381379982.09,
       "Plano III": 5936089278.89,
       "Plano IV": null,
-      "Plano Família": 0,
+      "Plano Família": 64493088.215,
       "Plano Pecúlio": 30525222.42
     },
     {
@@ -709,7 +709,7 @@ const DASHBOARD_DATA = {
       "Plano III": 6088055994.97,
       "Plano IV": null,
       "Plano Família": 78785021.5,
-      "Plano Pecúlio": 65778901.81
+      "Plano Pecúlio": 35778901.81
     },
     {
       "Data": "2022-03-01",
@@ -790,7 +790,7 @@ const DASHBOARD_DATA = {
       "Plano III": 6104162642.71,
       "Plano IV": null,
       "Plano Família": 143953246.7,
-      "Plano Pecúlio": 71068577.19
+      "Plano Pecúlio": 31068577.19
     },
     {
       "Data": "2022-06-01",
@@ -1033,7 +1033,7 @@ const DASHBOARD_DATA = {
       "Plano III": 6303173176.47,
       "Plano IV": null,
       "Plano Família": 160211470.41,
-      "Plano Pecúlio": 0
+      "Plano Pecúlio": 35961931.85
     },
     {
       "Data": "2023-03-01",
@@ -1114,7 +1114,7 @@ const DASHBOARD_DATA = {
       "Plano III": 6553301327.73,
       "Plano IV": null,
       "Plano Família": 170946106.91,
-      "Plano Pecúlio": 0
+      "Plano Pecúlio": 39025595.72
     },
     {
       "Data": "2023-06-01",
@@ -1302,7 +1302,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 7040266739.63,
       "Plano III": 6901804800.57,
       "Plano IV": null,
-      "Plano Família": 0,
+      "Plano Família": 187218498.07999998,
       "Plano Pecúlio": 48627068.98
     },
     {
@@ -1329,7 +1329,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 7028104261.28,
       "Plano III": 6862951010.13,
       "Plano IV": null,
-      "Plano Família": 0,
+      "Plano Família": 187228498.07999998,
       "Plano Pecúlio": 49613940.63
     },
     {
@@ -1356,7 +1356,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 7040625785.57,
       "Plano III": 6890592499.29,
       "Plano IV": null,
-      "Plano Família": 0,
+      "Plano Família": 187238498.07999998,
       "Plano Pecúlio": 50732648.74
     },
     {
@@ -1383,7 +1383,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 7044369545.12,
       "Plano III": 6910606078.57,
       "Plano IV": null,
-      "Plano Família": 0,
+      "Plano Família": 187248498.07999998,
       "Plano Pecúlio": 51482402.53
     },
     {
@@ -1410,7 +1410,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 7061291617.66,
       "Plano III": 6974772619.22,
       "Plano IV": 15339.81,
-      "Plano Família": 0,
+      "Plano Família": 187218498.07999998,
       "Plano Pecúlio": 52813081.19
     },
     {
@@ -1437,7 +1437,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 7075850206.63,
       "Plano III": 7022836886.27,
       "Plano IV": 48551.39,
-      "Plano Família": 0,
+      "Plano Família": 187228498.07999998,
       "Plano Pecúlio": 54249033.47
     },
     {
@@ -1464,7 +1464,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 7062052218.9,
       "Plano III": 6990873528.55,
       "Plano IV": 86256.4,
-      "Plano Família": 0,
+      "Plano Família": 187238498.07999998,
       "Plano Pecúlio": 55731012.56
     },
     {
@@ -1491,7 +1491,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 7075457281.72,
       "Plano III": 6998819580.43,
       "Plano IV": 163077.53,
-      "Plano Família": 0,
+      "Plano Família": 187248498.07999998,
       "Plano Pecúlio": 56961118.66
     },
     {
@@ -1518,7 +1518,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 7068129974.42,
       "Plano III": 7001996716.16,
       "Plano IV": 250661.62,
-      "Plano Família": 0,
+      "Plano Família": 187218498.07999998,
       "Plano Pecúlio": 57936515.87
     },
     {
@@ -1545,7 +1545,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 7082003401.54,
       "Plano III": 6989946624.6,
       "Plano IV": 353152.24,
-      "Plano Família": 0,
+      "Plano Família": 187228498.07999998,
       "Plano Pecúlio": 59253597.66
     },
     {
@@ -1869,7 +1869,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": 7306999739.4,
       "Plano III": 7473274595.61,
       "Plano IV": 3392531.89,
-      "Plano Família": 0,
+      "Plano Família": 206954237.89,
       "Plano Pecúlio": 58129579.61
     },
     {
@@ -3358,7 +3358,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": null,
       "Plano III": null,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 120.8853556127,
       "Plano Família": 475.97704359085026
     },
     {
@@ -3367,7 +3367,7 @@ const DASHBOARD_DATA = {
       "Plano Unificado": null,
       "Plano III": null,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 120.6682005984,
       "Plano Família": 511.31278534923337
     },
     {
@@ -3376,682 +3376,682 @@ const DASHBOARD_DATA = {
       "Plano Unificado": null,
       "Plano III": null,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 119.3732160661,
       "Plano Família": 371.55634331505695
     },
     {
       "Data": "2020-04-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 251.8188115384615,
+      "Plano III": 277.3372332779689,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 120.6893997702,
       "Plano Família": 338.03811344537814
     },
     {
       "Data": "2020-05-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 256.0023346153846,
+      "Plano III": 273.2928853255704,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 121.2336670514,
       "Plano Família": 355.62729401923883
     },
     {
       "Data": "2020-06-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 239.3189769230769,
+      "Plano III": 273.0459713418986,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 120.5025314079,
       "Plano Família": 355.3488301415487
     },
     {
       "Data": "2020-07-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 234.4409076923077,
+      "Plano III": 280.5068671867556,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 120.4473677363,
       "Plano Família": 445.3974422442244
     },
     {
       "Data": "2020-08-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 255.5164846153846,
+      "Plano III": 282.0388607808023,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 121.4853241538,
       "Plano Família": 456.83211279117285
     },
     {
       "Data": "2020-09-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 224.9236961538462,
+      "Plano III": 277.8874809051827,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 121.0590342545,
       "Plano Família": 443.22827739587547
     },
     {
       "Data": "2020-10-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 228.3443192307692,
+      "Plano III": 279.166474160392,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 121.1964109822,
       "Plano Família": 406.97318619582666
     },
     {
       "Data": "2020-11-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 247.7147192307692,
+      "Plano III": 292.2924373130758,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 122.5679517396,
       "Plano Família": 460.8920339652448
     },
     {
       "Data": "2020-12-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 497.8518258465791,
-      "Plano III": 785.9872357807652,
+      "Plano Unificado": 299.1138157894737,
+      "Plano III": 317.2275600024293,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 122.1661726639,
       "Plano Família": 839.3623073929961
     },
     {
       "Data": "2021-01-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 269.3928782608696,
+      "Plano III": 309.2731611042183,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 125.353407861,
       "Plano Família": 452.8908060161975
     },
     {
       "Data": "2021-02-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 236.6465166666667,
+      "Plano III": 293.4801285820895,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 123.7548088674,
       "Plano Família": 424.9060046189377
     },
     {
       "Data": "2021-03-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 230.4338041666666,
+      "Plano III": 291.5237059703353,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 122.7985890097,
       "Plano Família": 437.6063780718337
     },
     {
       "Data": "2021-04-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 239.9396666666667,
+      "Plano III": 291.9860678562484,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 123.353017684,
       "Plano Família": 461.0901411065726
     },
     {
       "Data": "2021-05-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 243.3672173913043,
+      "Plano III": 288.8771888067185,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 123.1354915449,
       "Plano Família": 576.144531766434
     },
     {
       "Data": "2021-06-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 239.803347826087,
+      "Plano III": 293.1200609006523,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 124.0614893312,
       "Plano Família": 468.08427688953486
     },
     {
       "Data": "2021-07-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 232.2838217391304,
+      "Plano III": 297.0181233329147,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 123.2256510454,
       "Plano Família": 380.8577929057686
     },
     {
       "Data": "2021-08-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 256.3756347826087,
+      "Plano III": 290.9111598966213,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 123.1672370509,
       "Plano Família": 582.4528253182461
     },
     {
       "Data": "2021-09-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 232.2569652173913,
+      "Plano III": 290.9895871843434,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 151.243139521,
       "Plano Família": 367.73314055380297
     },
     {
       "Data": "2021-10-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 263.1743227272727,
+      "Plano III": 319.7936922677803,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 161.79293618,
       "Plano Família": 368.3832613992343
     },
     {
       "Data": "2021-11-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 278.2771272727273,
+      "Plano III": 336.7751403511004,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 162.6323489089,
       "Plano Família": 531.9265903572667
     },
     {
       "Data": "2021-12-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 283.91170656153196,
-      "Plano III": 818.5901693047484,
+      "Plano Unificado": 299.1138157894737,
+      "Plano III": 317.2275600024293,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 159.8621687851,
       "Plano Família": 762.1568631506377
     },
     {
       "Data": "2022-01-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 291.7043368421052,
+      "Plano III": 325.1776874984799,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 164.3910440889,
       "Plano Família": 501.5701993812306
     },
     {
       "Data": "2022-02-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 287.193252631579,
+      "Plano III": 310.3982458886588,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 163.1931189039,
       "Plano Família": 264.5112679917752
     },
     {
       "Data": "2022-03-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 299.9194285714285,
+      "Plano III": 305.1847851282051,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 163.610953551,
       "Plano Família": 355.01360532604986
     },
     {
       "Data": "2022-04-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 315.03465,
+      "Plano III": 306.9457118518519,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 191.9813528651,
       "Plano Família": 316.3160251615097
     },
     {
       "Data": "2022-05-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 295.3883357142857,
+      "Plano III": 303.2610588912796,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 191.4155460732,
       "Plano Família": 532.4078668885192
     },
     {
       "Data": "2022-06-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 287.8061142857143,
+      "Plano III": 299.7648242005076,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 189.8586342993,
       "Plano Família": 371.41694757796944
     },
     {
       "Data": "2022-07-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": null,
-      "Plano III": null,
+      "Plano Unificado": 300.5910642857143,
+      "Plano III": 312.1714657303371,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 189.4207644695,
       "Plano Família": 314.87053848695075
     },
     {
       "Data": "2022-08-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 272.65756250892986,
-      "Plano III": 590.9227411886989,
+      "Plano Unificado": 303.7244357142857,
+      "Plano III": 302.4998099743918,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 190.840365019,
       "Plano Família": 307.37556684141543
     },
     {
       "Data": "2022-09-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 275.7732063037249,
-      "Plano III": 568.5814965601734,
+      "Plano Unificado": 314.32335,
+      "Plano III": 302.2896444144492,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 190.6197911909,
       "Plano Família": 356.84024796084833
     },
     {
       "Data": "2022-10-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 273.2934768877405,
-      "Plano III": 555.5047217776105,
+      "Plano Unificado": 308.2499785714286,
+      "Plano III": 301.5871053862051,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 190.3405338272,
       "Plano Família": 295.4369395711501
     },
     {
       "Data": "2022-11-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 305.4865737280828,
-      "Plano III": 615.1686109542632,
+      "Plano Unificado": 326.8483285714286,
+      "Plano III": 314.3871514607033,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 195.598023456,
       "Plano Família": 322.84397866839043
     },
     {
       "Data": "2022-12-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 598.3597424089797,
-      "Plano III": 717.1300479729094,
+      "Plano Unificado": 325.22115,
+      "Plano III": 311.4538925906803,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 193.8936097929,
       "Plano Família": 604.8011125401929
     },
     {
       "Data": "2023-01-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 292.23560767898385,
-      "Plano III": 791.1217152529622,
+      "Plano Unificado": 328.8237214285714,
+      "Plano III": 338.0615641204601,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 199.0309094828,
       "Plano Família": 325.9998458079024
     },
     {
       "Data": "2023-02-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 292.502258578254,
-      "Plano III": 764.8649915365808,
+      "Plano Unificado": 338.4287142857142,
+      "Plano III": 324.1875511024643,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 199.1508094672,
       "Plano Família": 287.4506932907348
     },
     {
       "Data": "2023-03-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 292.7315963462375,
-      "Plano III": 604.7038958842323,
+      "Plano Unificado": 328.3201071428571,
+      "Plano III": 325.5702519163311,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 199.2513421366,
       "Plano Família": 414.7500254858235
     },
     {
       "Data": "2023-04-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 292.1610100130605,
-      "Plano III": 589.5074584389969,
+      "Plano Unificado": 333.2587714285714,
+      "Plano III": 322.027347397189,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 254.9212063748,
       "Plano Família": 466.7551286122578
     },
     {
       "Data": "2023-05-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 291.5686981132076,
-      "Plano III": 572.2557974279546,
+      "Plano Unificado": 301.51035,
+      "Plano III": 319.310251577575,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 253.5420351555,
       "Plano Família": 353.2558678469807
     },
     {
       "Data": "2023-06-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 293.5626406295541,
-      "Plano III": 571.2046716768436,
+      "Plano Unificado": 339.1242428571428,
+      "Plano III": 316.7833348661006,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 251.6340008165,
       "Plano Família": 502.84470477386935
     },
     {
       "Data": "2023-07-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 292.2812583745995,
-      "Plano III": 599.3300534960114,
+      "Plano Unificado": 317.53545,
+      "Plano III": 330.5380063097264,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 249.5017697294,
       "Plano Família": 306.6753610503282
     },
     {
       "Data": "2023-08-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 292.84026411790455,
-      "Plano III": 548.7362597135099,
+      "Plano Unificado": 323.1622928571429,
+      "Plano III": 321.2434414413232,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 250.2064014019,
       "Plano Família": 294.84121920798253
     },
     {
       "Data": "2023-09-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 293.8091902952353,
-      "Plano III": 636.5867253653054,
+      "Plano Unificado": 319.3014857142857,
+      "Plano III": 323.4424429510784,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 251.1441016879,
       "Plano Família": 406.3815776397515
     },
     {
       "Data": "2023-10-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 293.5942289651129,
-      "Plano III": 614.8382899419366,
+      "Plano Unificado": 347.2413857142857,
+      "Plano III": 336.768683311363,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 253.285,
       "Plano Família": 272.65765123456794
     },
     {
       "Data": "2023-11-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 315.05791961130745,
-      "Plano III": 726.0146205733557,
+      "Plano Unificado": 341.2161428571429,
+      "Plano III": 352.1706247955685,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 258.555545974,
       "Plano Família": 273.78638350261616
     },
     {
       "Data": "2023-12-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 624.2884907885041,
-      "Plano III": 763.2033139589388,
+      "Plano Unificado": 336.7532571428571,
+      "Plano III": 362.776364430948,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 257.2757267381,
       "Plano Família": 671.6592782555282
     },
     {
       "Data": "2024-01-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 306.9196502361275,
-      "Plano III": 710.4774777475874,
+      "Plano Unificado": 352.7470285714285,
+      "Plano III": 372.5812287111699,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 258.1403702918,
       "Plano Família": 306.07051881067963
     },
     {
       "Data": "2024-02-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 306.7814986698197,
-      "Plano III": 599.8477071720549,
+      "Plano Unificado": 321.5802,
+      "Plano III": 347.6283405996003,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 255.6640596281,
       "Plano Família": 246.76101506024094
     },
     {
       "Data": "2024-03-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 307.07162911354874,
-      "Plano III": 575.6242817371938,
+      "Plano Unificado": 339.4148142857143,
+      "Plano III": 343.6057444058281,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 255.3791762432,
       "Plano Família": 316.6562317545427
     },
     {
       "Data": "2024-04-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 307.3085026737968,
-      "Plano III": 603.7228763192002,
+      "Plano Unificado": 324.0936857142857,
+      "Plano III": 345.301695310197,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 256.2820062798,
       "Plano Família": 253.83584745762712
     },
     {
       "Data": "2024-05-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 315.84375148986885,
-      "Plano III": 583.6912925546637,
+      "Plano Unificado": 307.6150928571428,
+      "Plano III": 336.6703355486654,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 253.9271422358,
       "Plano Família": 340.09696714161095
     },
     {
       "Data": "2024-06-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 312.9791409757558,
-      "Plano III": 555.2909136075075,
+      "Plano Unificado": 326.0565230769231,
+      "Plano III": 340.069054969574,
       "Plano IV": null,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 254.0691893666,
       "Plano Família": 256.6644058976583
     },
     {
       "Data": "2024-07-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 309.1570067516879,
-      "Plano III": 653.7664226152295,
+      "Plano Unificado": 311.6877461538461,
+      "Plano III": 353.3560019701087,
       "Plano IV": 7405.13,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 253.3509188058,
       "Plano Família": 266.5136724137931
     },
     {
       "Data": "2024-08-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 312.3881872839321,
-      "Plano III": 793.7939691943128,
+      "Plano Unificado": 295.606125,
+      "Plano III": 341.1973322509933,
       "Plano IV": 7989.75,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 247.0393282749,
       "Plano Família": 825.4020736932306
     },
     {
       "Data": "2024-09-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 312.6416036741455,
-      "Plano III": 470.33090071485304,
+      "Plano Unificado": 281.7669666666666,
+      "Plano III": 325.523414316804,
       "Plano IV": 6285.063333333333,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 247.1134420414,
       "Plano Família": 268.7708228929385
     },
     {
       "Data": "2024-10-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 334.02942162488677,
-      "Plano III": 595.9281498458863,
+      "Plano Unificado": 280.8850125,
+      "Plano III": 330.982502245603,
       "Plano IV": 3876.703,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 247.9158014917,
       "Plano Família": 259.32838718820864
     },
     {
       "Data": "2024-11-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 333.7073225367035,
-      "Plano III": 377.1285537905002,
+      "Plano Unificado": 251.9566285714286,
+      "Plano III": 327.1335516118837,
       "Plano IV": 4028.2736363636363,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 250.4324415021,
       "Plano Família": 279.81599151343704
     },
     {
       "Data": "2024-12-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 670.0366545399423,
-      "Plano III": 457.9901446199796,
+      "Plano Unificado": 272.0295857142857,
+      "Plano III": 334.638049421828,
       "Plano IV": 3325.718,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 249.7118428899,
       "Plano Família": 996.537616361072
     },
     {
       "Data": "2025-01-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 327.17731547709633,
-      "Plano III": 411.7858288937637,
+      "Plano Unificado": 293.3998,
+      "Plano III": 349.1000213910552,
       "Plano IV": 3126.75375,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 252.378049621,
       "Plano Família": 239.8461594815441
     },
     {
       "Data": "2025-02-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 330.14658287629493,
-      "Plano III": 438.9444760130415,
+      "Plano Unificado": 307.97565,
+      "Plano III": 335.5509740820023,
       "Plano IV": 3138.4742857142855,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 256.1962826029,
       "Plano Família": 238.5914293753517
     },
     {
       "Data": "2025-03-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 327.3932992366412,
-      "Plano III": 366.1633723907814,
+      "Plano Unificado": 294.4849,
+      "Plano III": 331.073615931251,
       "Plano IV": 2956.30652173913,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 259.3694215613,
       "Plano Família": 230.30331834785054
     },
     {
       "Data": "2025-04-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 326.79523328744074,
-      "Plano III": 369.27654001240694,
+      "Plano Unificado": 295.9745,
+      "Plano III": 331.473874501992,
       "Plano IV": 2481.531379310345,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 260.7348269611,
       "Plano Família": 230.22664049355018
     },
     {
       "Data": "2025-05-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 330.3542125440883,
-      "Plano III": 360.1240605872782,
+      "Plano Unificado": 295.743,
+      "Plano III": 326.7030421736956,
       "Plano IV": 2059.6744736842106,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 400.1660474377,
       "Plano Família": 247.56086713286712
     },
     {
       "Data": "2025-06-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 327.4178509984639,
-      "Plano III": 351.10225439343503,
+      "Plano Unificado": 294.4849,
+      "Plano III": 325.9408285236582,
       "Plano IV": 2018.811875,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 399.2647056744,
       "Plano Família": 247.48069293098632
     },
     {
       "Data": "2025-07-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 327.36054828276605,
-      "Plano III": 360.36803704557684,
+      "Plano Unificado": 294.4849,
+      "Plano III": 339.1582275207592,
       "Plano IV": 1425.7290909090905,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 397.5688381224,
       "Plano Família": 225.71790691192865
     },
     {
       "Data": "2025-08-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 328.45515207657866,
-      "Plano III": 348.2653470890542,
+      "Plano Unificado": 302.3511,
+      "Plano III": 323.0228131945639,
       "Plano IV": 970.2864028776972,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 401.1899318752,
       "Plano Família": 218.71311024715357
     },
     {
       "Data": "2025-09-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 327.8796706864564,
-      "Plano III": 321.49596723809526,
+      "Plano Unificado": 294.4849,
+      "Plano III": 320.9434278319972,
       "Plano IV": 813.1778260869563,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 399.9386676295,
       "Plano Família": 221.60975069252078
     },
     {
       "Data": "2025-10-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 328.23135264951964,
-      "Plano III": 323.5956295676004,
+      "Plano Unificado": 319.58334,
+      "Plano III": 322.4852559628201,
       "Plano IV": 420.7213784461151,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 400.6464925644,
       "Plano Família": 220.69762220381108
     },
     {
       "Data": "2025-11-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 350.47943495808755,
-      "Plano III": 337.513159777727,
+      "Plano Unificado": 310.1439,
+      "Plano III": 323.5257758906525,
       "Plano IV": 383.17997737556567,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 402.0914416225,
       "Plano Família": 214.6615030336459
     },
     {
       "Data": "2025-12-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 770.988549238894,
-      "Plano III": 473.0626915759836,
+      "Plano Unificado": 311.22426,
+      "Plano III": 338.799175616244,
       "Plano IV": 406.74722972972955,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 402.359077794,
       "Plano Família": 577.0996820175438
     },
     {
       "Data": "2026-01-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 344.346161411177,
-      "Plano III": 393.83350182426267,
+      "Plano Unificado": 313.37874,
+      "Plano III": 361.2665044903778,
       "Plano IV": 401.13909871244664,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 417.6093800146,
       "Plano Família": 213.54091306724987
     },
     {
       "Data": "2026-02-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 344.42652690863576,
-      "Plano III": 437.45852026461864,
+      "Plano Unificado": 332.34168,
+      "Plano III": 349.5897275071633,
       "Plano IV": 536.3877747989275,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 417.3620128205,
       "Plano Família": 207.26424863387976
     },
     {
       "Data": "2026-03-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 345.63153676932745,
-      "Plano III": 361.0718970498783,
+      "Plano Unificado": 326.39136,
+      "Plano III": 343.313799712953,
       "Plano IV": 564.2444751381221,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 416.8728631772,
       "Plano Família": 266.73681036834927
     },
     {
       "Data": "2026-04-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 378.237241184904,
-      "Plano III": 435.829325739155,
+      "Plano Unificado": 331.68258,
+      "Plano III": 342.4912986984816,
       "Plano IV": 545.3350642673529,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 460.1478922287,
       "Plano Família": 293.278892658368
     },
     {
       "Data": "2026-05-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 368.014378574131,
-      "Plano III": 450.214108341867,
+      "Plano Unificado": 325.89648,
+      "Plano III": 339.1426657122146,
       "Plano IV": 549.0004926108375,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 459.2972073733,
       "Plano Família": 298.808964052339
     },
     {
       "Data": "2026-06-01",
       "Descrição": "Contribuição Média",
-      "Plano Unificado": 357.791515963359,
-      "Plano III": 464.598890944578,
+      "Plano Unificado": 330.51894,
+      "Plano III": 340.6885114963504,
       "Plano IV": 512.7432034632033,
-      "Plano Pecúlio": null,
+      "Plano Pecúlio": 459.0448111111,
       "Plano Família": 304.339035446311
     }
   ],
@@ -4134,7 +4134,8 @@ const DASHBOARD_DATA = {
       "Plano III": 4663,
       "Plano Unificado": 2973,
       "Plano IV": 0,
-      "Pecúlio": 6768
+      "Pecúlio": 6805,
+      "Plano Família": 4
     },
     {
       "Ano": 2020,
@@ -4142,7 +4143,8 @@ const DASHBOARD_DATA = {
       "Plano III": 7114,
       "Plano Unificado": 15,
       "Plano IV": 0,
-      "Pecúlio": 4624
+      "Pecúlio": 4896,
+      "Plano Família": 2731
     },
     {
       "Ano": 2020,
@@ -4150,7 +4152,8 @@ const DASHBOARD_DATA = {
       "Plano III": 848,
       "Plano Unificado": 3,
       "Plano IV": 0,
-      "Pecúlio": 135
+      "Pecúlio": 139,
+      "Plano Família": null
     },
     {
       "Ano": 2020,
@@ -4158,7 +4161,8 @@ const DASHBOARD_DATA = {
       "Plano III": 271,
       "Plano Unificado": 1,
       "Plano IV": 0,
-      "Pecúlio": 81
+      "Pecúlio": 91,
+      "Plano Família": null
     },
     {
       "Ano": 2021,
@@ -4166,7 +4170,8 @@ const DASHBOARD_DATA = {
       "Plano III": 4786,
       "Plano Unificado": 2875,
       "Plano IV": 0,
-      "Pecúlio": 6778
+      "Pecúlio": 6805,
+      "Plano Família": 5
     },
     {
       "Ano": 2021,
@@ -4174,7 +4179,8 @@ const DASHBOARD_DATA = {
       "Plano III": 7114,
       "Plano Unificado": 15,
       "Plano IV": 0,
-      "Pecúlio": 4624
+      "Pecúlio": 4896,
+      "Plano Família": 3077
     },
     {
       "Ano": 2021,
@@ -4182,7 +4188,8 @@ const DASHBOARD_DATA = {
       "Plano III": 848,
       "Plano Unificado": 3,
       "Plano IV": 0,
-      "Pecúlio": 135
+      "Pecúlio": 139,
+      "Plano Família": null
     },
     {
       "Ano": 2021,
@@ -4190,7 +4197,8 @@ const DASHBOARD_DATA = {
       "Plano III": 271,
       "Plano Unificado": 1,
       "Plano IV": 0,
-      "Pecúlio": 81
+      "Pecúlio": 91,
+      "Plano Família": null
     },
     {
       "Ano": 2022,
@@ -4198,7 +4206,8 @@ const DASHBOARD_DATA = {
       "Plano III": 5088,
       "Plano Unificado": 2785,
       "Plano IV": 0,
-      "Pecúlio": 6947
+      "Pecúlio": 6975,
+      "Plano Família": 64
     },
     {
       "Ano": 2022,
@@ -4206,7 +4215,8 @@ const DASHBOARD_DATA = {
       "Plano III": 6586,
       "Plano Unificado": 10,
       "Plano IV": 0,
-      "Pecúlio": 4185
+      "Pecúlio": 4444,
+      "Plano Família": 3235
     },
     {
       "Ano": 2022,
@@ -4214,7 +4224,8 @@ const DASHBOARD_DATA = {
       "Plano III": 851,
       "Plano Unificado": 3,
       "Plano IV": 0,
-      "Pecúlio": 124
+      "Pecúlio": 129,
+      "Plano Família": null
     },
     {
       "Ano": 2022,
@@ -4222,7 +4233,8 @@ const DASHBOARD_DATA = {
       "Plano III": 310,
       "Plano Unificado": 1,
       "Plano IV": 0,
-      "Pecúlio": 94
+      "Pecúlio": 104,
+      "Plano Família": null
     },
     {
       "Ano": 2023,
@@ -4230,7 +4242,8 @@ const DASHBOARD_DATA = {
       "Plano III": 5094,
       "Plano Unificado": 2697,
       "Plano IV": 0,
-      "Pecúlio": 6829
+      "Pecúlio": 6857,
+      "Plano Família": 74
     },
     {
       "Ano": 2023,
@@ -4238,7 +4251,8 @@ const DASHBOARD_DATA = {
       "Plano III": 6471,
       "Plano Unificado": 10,
       "Plano IV": 0,
-      "Pecúlio": 3638
+      "Pecúlio": 3884,
+      "Plano Família": 3390
     },
     {
       "Ano": 2023,
@@ -4246,7 +4260,8 @@ const DASHBOARD_DATA = {
       "Plano III": 807,
       "Plano Unificado": 3,
       "Plano IV": 0,
-      "Pecúlio": 99
+      "Pecúlio": 104,
+      "Plano Família": null
     },
     {
       "Ano": 2023,
@@ -4254,7 +4269,8 @@ const DASHBOARD_DATA = {
       "Plano III": 296,
       "Plano Unificado": 1,
       "Plano IV": 0,
-      "Pecúlio": 75
+      "Pecúlio": 80,
+      "Plano Família": null
     },
     {
       "Ano": 2024,
@@ -4262,7 +4278,8 @@ const DASHBOARD_DATA = {
       "Plano III": 6105,
       "Plano Unificado": 2605,
       "Plano IV": 0,
-      "Pecúlio": 7417
+      "Pecúlio": 7457,
+      "Plano Família": 82
     },
     {
       "Ano": 2024,
@@ -4270,7 +4287,8 @@ const DASHBOARD_DATA = {
       "Plano III": 5199,
       "Plano Unificado": 2,
       "Plano IV": 24,
-      "Pecúlio": 2442
+      "Pecúlio": 2653,
+      "Plano Família": 3691
     },
     {
       "Ano": 2024,
@@ -4278,7 +4296,8 @@ const DASHBOARD_DATA = {
       "Plano III": 808,
       "Plano Unificado": 4,
       "Plano IV": 0,
-      "Pecúlio": 109
+      "Pecúlio": 115,
+      "Plano Família": null
     },
     {
       "Ano": 2024,
@@ -4286,7 +4305,8 @@ const DASHBOARD_DATA = {
       "Plano III": 306,
       "Plano Unificado": 1,
       "Plano IV": 0,
-      "Pecúlio": 73
+      "Pecúlio": 80,
+      "Plano Família": null
     },
     {
       "Ano": 2025,
@@ -4294,7 +4314,8 @@ const DASHBOARD_DATA = {
       "Plano III": 6295,
       "Plano Unificado": 2509,
       "Plano IV": 0,
-      "Pecúlio": 4939
+      "Pecúlio": 4939,
+      "Plano Família": 90
     },
     {
       "Ano": 2025,
@@ -4302,7 +4323,8 @@ const DASHBOARD_DATA = {
       "Plano III": 4516,
       "Plano Unificado": 1,
       "Plano IV": 285,
-      "Pecúlio": 920
+      "Pecúlio": 920,
+      "Plano Família": 3773
     },
     {
       "Ano": 2025,
@@ -4310,7 +4332,8 @@ const DASHBOARD_DATA = {
       "Plano III": 752,
       "Plano Unificado": 3,
       "Plano IV": 1,
-      "Pecúlio": 71
+      "Pecúlio": 71,
+      "Plano Família": null
     },
     {
       "Ano": 2025,
@@ -4318,57 +4341,62 @@ const DASHBOARD_DATA = {
       "Plano III": 371,
       "Plano Unificado": 1,
       "Plano IV": 0,
-      "Pecúlio": 63
+      "Pecúlio": 64,
+      "Plano Família": null
     },
     {
       "Ano": 2026,
       "Tipo de Participante": "Aposentados",
-      "Plano III": 6314,
-      "Plano Unificado": 2470,
+      "Plano III": 6364,
+      "Plano Unificado": 2443,
       "Plano IV": 0,
-      "Pecúlio": 4862
+      "Pecúlio": 4827,
+      "Plano Família": 90
     },
     {
       "Ano": 2026,
       "Tipo de Participante": "Ativos",
-      "Plano III": 4420,
+      "Plano III": 4278,
       "Plano Unificado": 1,
       "Plano IV": 387,
-      "Pecúlio": 879
+      "Pecúlio": 838,
+      "Plano Família": 3773
     },
     {
       "Ano": 2026,
       "Tipo de Participante": "Autopatrocinado",
-      "Plano III": 741,
-      "Plano Unificado": 3,
+      "Plano III": 739,
+      "Plano Unificado": 2,
       "Plano IV": 2,
-      "Pecúlio": 66
+      "Pecúlio": 66,
+      "Plano Família": null
     },
     {
       "Ano": 2026,
       "Tipo de Participante": "Vinculado",
-      "Plano III": 371,
+      "Plano III": 382,
       "Plano Unificado": 1,
       "Plano IV": 0,
-      "Pecúlio": 64
+      "Pecúlio": 68,
+      "Plano Família": null
     }
   ],
   "Particip. por Patroc.": [
     {
       "Ano": 2020,
       "Patrocinadora": "Compagas",
-      "Plano III": 154,
+      "Plano III": 166,
       "Plano Unificado": 0,
       "Plano IV": 0,
-      "Pecúlio": 96
+      "Pecúlio": 92
     },
     {
       "Ano": 2020,
       "Patrocinadora": "Copel",
-      "Plano III": 7259,
-      "Plano Unificado": 19,
+      "Plano III": 11779,
+      "Plano Unificado": 2992,
       "Plano IV": 0,
-      "Pecúlio": 11130
+      "Pecúlio": 4727
     },
     {
       "Ano": 2020,
@@ -4381,133 +4409,21 @@ const DASHBOARD_DATA = {
     {
       "Ano": 2020,
       "Patrocinadora": "Fundação Copel",
-      "Plano III": 214,
-      "Plano Unificado": 0,
-      "Plano IV": 0,
-      "Pecúlio": 193
-    },
-    {
-      "Ano": 2020,
-      "Patrocinadora": "Lactec",
-      "Plano III": 501,
+      "Plano III": 259,
       "Plano Unificado": 0,
       "Plano IV": 0,
       "Pecúlio": 153
     },
     {
       "Ano": 2020,
-      "Patrocinadora": "Tradener",
-      "Plano III": 74,
+      "Patrocinadora": "Lactec",
+      "Plano III": 581,
       "Plano Unificado": 0,
       "Plano IV": 0,
-      "Pecúlio": 19
+      "Pecúlio": 117
     },
     {
       "Ano": 2020,
-      "Patrocinadora": "UEGA",
-      "Plano III": 19,
-      "Plano Unificado": 0,
-      "Plano IV": 0,
-      "Pecúlio": 16
-    },
-    {
-      "Ano": 2021,
-      "Patrocinadora": "Compagas",
-      "Plano III": 154,
-      "Plano Unificado": 0,
-      "Plano IV": 0,
-      "Pecúlio": 99
-    },
-    {
-      "Ano": 2021,
-      "Patrocinadora": "Copel",
-      "Plano III": 7259,
-      "Plano Unificado": 19,
-      "Plano IV": 0,
-      "Pecúlio": 11131
-    },
-    {
-      "Ano": 2021,
-      "Patrocinadora": "ELEJOR",
-      "Plano III": 12,
-      "Plano Unificado": 0,
-      "Plano IV": 0,
-      "Pecúlio": 1
-    },
-    {
-      "Ano": 2021,
-      "Patrocinadora": "Fundação Copel",
-      "Plano III": 214,
-      "Plano Unificado": 0,
-      "Plano IV": 0,
-      "Pecúlio": 197
-    },
-    {
-      "Ano": 2021,
-      "Patrocinadora": "Lactec",
-      "Plano III": 501,
-      "Plano Unificado": 0,
-      "Plano IV": 0,
-      "Pecúlio": 155
-    },
-    {
-      "Ano": 2021,
-      "Patrocinadora": "Tradener",
-      "Plano III": 74,
-      "Plano Unificado": 0,
-      "Plano IV": 0,
-      "Pecúlio": 19
-    },
-    {
-      "Ano": 2021,
-      "Patrocinadora": "UEGA",
-      "Plano III": 19,
-      "Plano Unificado": 0,
-      "Plano IV": 0,
-      "Pecúlio": 16
-    },
-    {
-      "Ano": 2022,
-      "Patrocinadora": "Compagas",
-      "Plano III": 151,
-      "Plano Unificado": 0,
-      "Plano IV": 0,
-      "Pecúlio": 98
-    },
-    {
-      "Ano": 2022,
-      "Patrocinadora": "Copel",
-      "Plano III": 6797,
-      "Plano Unificado": 14,
-      "Plano IV": 0,
-      "Pecúlio": 10881
-    },
-    {
-      "Ano": 2022,
-      "Patrocinadora": "ELEJOR",
-      "Plano III": 12,
-      "Plano Unificado": 0,
-      "Plano IV": 0,
-      "Pecúlio": 1
-    },
-    {
-      "Ano": 2022,
-      "Patrocinadora": "Fundação Copel",
-      "Plano III": 227,
-      "Plano Unificado": 0,
-      "Plano IV": 0,
-      "Pecúlio": 190
-    },
-    {
-      "Ano": 2022,
-      "Patrocinadora": "Lactec",
-      "Plano III": 462,
-      "Plano Unificado": 0,
-      "Plano IV": 0,
-      "Pecúlio": 144
-    },
-    {
-      "Ano": 2022,
       "Patrocinadora": "Tradener",
       "Plano III": 79,
       "Plano Unificado": 0,
@@ -4515,28 +4431,140 @@ const DASHBOARD_DATA = {
       "Pecúlio": 20
     },
     {
-      "Ano": 2022,
+      "Ano": 2020,
       "Patrocinadora": "UEGA",
-      "Plano III": 19,
+      "Plano III": 20,
       "Plano Unificado": 0,
       "Plano IV": 0,
       "Pecúlio": 16
     },
     {
-      "Ano": 2023,
+      "Ano": 2021,
       "Patrocinadora": "Compagas",
-      "Plano III": 152,
+      "Plano III": 169,
       "Plano Unificado": 0,
       "Plano IV": 0,
-      "Pecúlio": 79
+      "Pecúlio": 103
+    },
+    {
+      "Ano": 2021,
+      "Patrocinadora": "Copel",
+      "Plano III": 11888,
+      "Plano Unificado": 2894,
+      "Plano IV": 0,
+      "Pecúlio": 11419
+    },
+    {
+      "Ano": 2021,
+      "Patrocinadora": "ELEJOR",
+      "Plano III": 12,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
+      "Pecúlio": 1
+    },
+    {
+      "Ano": 2021,
+      "Patrocinadora": "Fundação Copel",
+      "Plano III": 264,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
+      "Pecúlio": 201
+    },
+    {
+      "Ano": 2021,
+      "Patrocinadora": "Lactec",
+      "Plano III": 586,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
+      "Pecúlio": 166
+    },
+    {
+      "Ano": 2021,
+      "Patrocinadora": "Tradener",
+      "Plano III": 80,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
+      "Pecúlio": 24
+    },
+    {
+      "Ano": 2021,
+      "Patrocinadora": "UEGA",
+      "Plano III": 20,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
+      "Pecúlio": 17
+    },
+    {
+      "Ano": 2022,
+      "Patrocinadora": "Compagas",
+      "Plano III": 166,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
+      "Pecúlio": 102
+    },
+    {
+      "Ano": 2022,
+      "Patrocinadora": "Copel",
+      "Plano III": 11720,
+      "Plano Unificado": 2799,
+      "Plano IV": 0,
+      "Pecúlio": 11160
+    },
+    {
+      "Ano": 2022,
+      "Patrocinadora": "ELEJOR",
+      "Plano III": 12,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
+      "Pecúlio": 1
+    },
+    {
+      "Ano": 2022,
+      "Patrocinadora": "Fundação Copel",
+      "Plano III": 280,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
+      "Pecúlio": 194
+    },
+    {
+      "Ano": 2022,
+      "Patrocinadora": "Lactec",
+      "Plano III": 552,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
+      "Pecúlio": 153
+    },
+    {
+      "Ano": 2022,
+      "Patrocinadora": "Tradener",
+      "Plano III": 85,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
+      "Pecúlio": 25
+    },
+    {
+      "Ano": 2022,
+      "Patrocinadora": "UEGA",
+      "Plano III": 20,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
+      "Pecúlio": 17
+    },
+    {
+      "Ano": 2023,
+      "Patrocinadora": "Compagas",
+      "Plano III": 167,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
+      "Pecúlio": 82
     },
     {
       "Ano": 2023,
       "Patrocinadora": "Copel",
-      "Plano III": 6668,
-      "Plano Unificado": 14,
+      "Plano III": 11576,
+      "Plano Unificado": 2711,
       "Plano IV": 0,
-      "Pecúlio": 10252
+      "Pecúlio": 10517
     },
     {
       "Ano": 2023,
@@ -4549,31 +4577,31 @@ const DASHBOARD_DATA = {
     {
       "Ano": 2023,
       "Patrocinadora": "Fundação Copel",
-      "Plano III": 232,
+      "Plano III": 290,
       "Plano Unificado": 0,
       "Plano IV": 0,
-      "Pecúlio": 147
+      "Pecúlio": 150
     },
     {
       "Ano": 2023,
       "Patrocinadora": "Lactec",
-      "Plano III": 411,
+      "Plano III": 517,
       "Plano Unificado": 0,
       "Plano IV": 0,
-      "Pecúlio": 128
+      "Pecúlio": 136
     },
     {
       "Ano": 2023,
       "Patrocinadora": "Tradener",
-      "Plano III": 82,
+      "Plano III": 88,
       "Plano Unificado": 0,
       "Plano IV": 0,
-      "Pecúlio": 18
+      "Pecúlio": 23
     },
     {
       "Ano": 2023,
       "Patrocinadora": "UEGA",
-      "Plano III": 18,
+      "Plano III": 19,
       "Plano Unificado": 0,
       "Plano IV": 0,
       "Pecúlio": 16
@@ -4581,18 +4609,18 @@ const DASHBOARD_DATA = {
     {
       "Ano": 2024,
       "Patrocinadora": "Compagas",
-      "Plano III": 159,
+      "Plano III": 197,
       "Plano Unificado": 0,
       "Plano IV": 0,
-      "Pecúlio": 75
+      "Pecúlio": 77
     },
     {
       "Ano": 2024,
       "Patrocinadora": "Copel",
-      "Plano III": 5424,
-      "Plano Unificado": 7,
+      "Plano III": 11303,
+      "Plano Unificado": 2611,
       "Plano IV": 24,
-      "Pecúlio": 9682
+      "Pecúlio": 9930
     },
     {
       "Ano": 2024,
@@ -4605,31 +4633,31 @@ const DASHBOARD_DATA = {
     {
       "Ano": 2024,
       "Patrocinadora": "Fundação Copel",
-      "Plano III": 239,
-      "Plano Unificado": 0,
+      "Plano III": 304,
+      "Plano Unificado": 1,
       "Plano IV": 0,
-      "Pecúlio": 131
+      "Pecúlio": 133
     },
     {
       "Ano": 2024,
       "Patrocinadora": "Lactec",
-      "Plano III": 378,
+      "Plano III": 492,
       "Plano Unificado": 0,
       "Plano IV": 0,
-      "Pecúlio": 122
+      "Pecúlio": 129
     },
     {
       "Ano": 2024,
       "Patrocinadora": "Tradener",
-      "Plano III": 88,
+      "Plano III": 96,
       "Plano Unificado": 0,
       "Plano IV": 0,
-      "Pecúlio": 17
+      "Pecúlio": 22
     },
     {
       "Ano": 2024,
       "Patrocinadora": "UEGA",
-      "Plano III": 15,
+      "Plano III": 16,
       "Plano Unificado": 0,
       "Plano IV": 0,
       "Pecúlio": 13
@@ -4637,7 +4665,7 @@ const DASHBOARD_DATA = {
     {
       "Ano": 2025,
       "Patrocinadora": "Compagas",
-      "Plano III": 167,
+      "Plano III": 218,
       "Plano Unificado": 0,
       "Plano IV": 0,
       "Pecúlio": 51
@@ -4645,10 +4673,10 @@ const DASHBOARD_DATA = {
     {
       "Ano": 2025,
       "Patrocinadora": "Copel",
-      "Plano III": 4780,
-      "Plano Unificado": 5,
+      "Plano III": 10823,
+      "Plano Unificado": 2514,
       "Plano IV": 261,
-      "Pecúlio": 5744
+      "Pecúlio": 5745
     },
     {
       "Ano": 2025,
@@ -4661,7 +4689,7 @@ const DASHBOARD_DATA = {
     {
       "Ano": 2025,
       "Patrocinadora": "Fundação Copel",
-      "Plano III": 220,
+      "Plano III": 290,
       "Plano Unificado": 0,
       "Plano IV": 16,
       "Pecúlio": 78
@@ -4669,7 +4697,7 @@ const DASHBOARD_DATA = {
     {
       "Ano": 2025,
       "Patrocinadora": "Lactec",
-      "Plano III": 355,
+      "Plano III": 474,
       "Plano Unificado": 0,
       "Plano IV": 9,
       "Pecúlio": 99
@@ -4677,7 +4705,7 @@ const DASHBOARD_DATA = {
     {
       "Ano": 2025,
       "Patrocinadora": "Tradener",
-      "Plano III": 94,
+      "Plano III": 105,
       "Plano Unificado": 0,
       "Plano IV": 0,
       "Pecúlio": 12
@@ -4685,7 +4713,7 @@ const DASHBOARD_DATA = {
     {
       "Ano": 2025,
       "Patrocinadora": "UEGA",
-      "Plano III": 10,
+      "Plano III": 11,
       "Plano Unificado": 0,
       "Plano IV": 0,
       "Pecúlio": 8
@@ -4693,18 +4721,18 @@ const DASHBOARD_DATA = {
     {
       "Ano": 2026,
       "Patrocinadora": "Compagas",
-      "Plano III": 153,
+      "Plano III": 206,
       "Plano Unificado": 0,
       "Plano IV": 0,
-      "Pecúlio": 49
+      "Pecúlio": 46
     },
     {
       "Ano": 2026,
       "Patrocinadora": "Copel",
-      "Plano III": 4706,
-      "Plano Unificado": 5,
+      "Plano III": 10691,
+      "Plano Unificado": 2447,
       "Plano IV": 347,
-      "Pecúlio": 5630
+      "Pecúlio": 5567
     },
     {
       "Ano": 2026,
@@ -4717,34 +4745,34 @@ const DASHBOARD_DATA = {
     {
       "Ano": 2026,
       "Patrocinadora": "Fundação Copel",
-      "Plano III": 211,
+      "Plano III": 281,
       "Plano Unificado": 0,
       "Plano IV": 28,
-      "Pecúlio": 74
+      "Pecúlio": 72
     },
     {
       "Ano": 2026,
       "Patrocinadora": "Lactec",
-      "Plano III": 346,
+      "Plano III": 464,
       "Plano Unificado": 0,
       "Plano IV": 14,
-      "Pecúlio": 98
+      "Pecúlio": 96
     },
     {
       "Ano": 2026,
       "Patrocinadora": "Tradener",
-      "Plano III": 94,
+      "Plano III": 98,
       "Plano Unificado": 0,
       "Plano IV": 0,
-      "Pecúlio": 12
+      "Pecúlio": 11
     },
     {
       "Ano": 2026,
       "Patrocinadora": "UEGA",
-      "Plano III": 9,
+      "Plano III": 10,
       "Plano Unificado": 0,
       "Plano IV": 0,
-      "Pecúlio": 7
+      "Pecúlio": 6
     }
   ],
   "Concessões vs Adesões": [
@@ -4775,272 +4803,272 @@ const DASHBOARD_DATA = {
     {
       "Data": "2020-04-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 28,
+      "Plano Unificado": 1,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2020-05-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 4,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2020-06-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 4,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2020-07-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 7,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2020-08-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 10,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2020-09-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 5,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2020-10-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 7,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2020-11-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 5,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 1
     },
     {
       "Data": "2020-12-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 200,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2021-01-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 93,
+      "Plano Unificado": 2,
       "Plano IV": null,
       "Plano Família": 1
     },
     {
       "Data": "2021-02-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 9,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2021-03-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 6,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2021-04-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 18,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2021-05-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 7,
+      "Plano Unificado": 1,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2021-06-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 4,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2021-07-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 4,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2021-08-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 11,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2021-09-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 9,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2021-10-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 14,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2021-11-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 4,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2021-12-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 2,
+      "Plano Unificado": 2,
       "Plano IV": null,
       "Plano Família": 1
     },
     {
       "Data": "2022-01-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 7,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2022-02-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 10,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2022-03-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 225,
+      "Plano Unificado": 5,
       "Plano IV": null,
       "Plano Família": 1
     },
     {
       "Data": "2022-04-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 14,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2022-05-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 14,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 30
     },
     {
       "Data": "2022-06-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 10,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 23
     },
     {
       "Data": "2022-07-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 12,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 3
     },
     {
       "Data": "2022-08-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 17,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2022-09-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 16,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2022-10-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 12,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 1
     },
     {
       "Data": "2022-11-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 6,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2022-12-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 1,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
     {
       "Data": "2023-01-01",
       "Descrição": "Concessão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 6,
+      "Plano Unificado": 0,
       "Plano IV": null,
       "Plano Família": 0
     },
@@ -5376,615 +5404,615 @@ const DASHBOARD_DATA = {
       "Data": "2020-01-01",
       "Descrição": "Adesão",
       "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 62
     },
     {
       "Data": "2020-02-01",
       "Descrição": "Adesão",
       "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 43
     },
     {
       "Data": "2020-03-01",
       "Descrição": "Adesão",
       "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 30
     },
     {
       "Data": "2020-04-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 1,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 16
     },
     {
       "Data": "2020-05-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 1,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 18
     },
     {
       "Data": "2020-06-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 4,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 11
     },
     {
       "Data": "2020-07-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 3,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 33
     },
     {
       "Data": "2020-08-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 3,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 45
     },
     {
       "Data": "2020-09-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 8,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 50
     },
     {
       "Data": "2020-10-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 7,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 33
     },
     {
       "Data": "2020-11-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 2,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 54
     },
     {
       "Data": "2020-12-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 512,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 44
     },
     {
       "Data": "2021-01-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 336,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 29
     },
     {
       "Data": "2021-02-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 2,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 11
     },
     {
       "Data": "2021-03-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 5,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 73
     },
     {
       "Data": "2021-04-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 5,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 75
     },
     {
       "Data": "2021-05-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 6,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 46
     },
     {
       "Data": "2021-06-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 8,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 43
     },
     {
       "Data": "2021-07-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 5,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 68
     },
     {
       "Data": "2021-08-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 7,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 50
     },
     {
       "Data": "2021-09-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 7,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 36
     },
     {
       "Data": "2021-10-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 11,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 27
     },
     {
       "Data": "2021-11-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 7,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 14
     },
     {
       "Data": "2021-12-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 446,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 26
     },
     {
       "Data": "2022-01-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 5,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 13
     },
     {
       "Data": "2022-02-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 8,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 12
     },
     {
       "Data": "2022-03-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 11,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 15
     },
     {
       "Data": "2022-04-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 4,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 14
     },
     {
       "Data": "2022-05-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 5,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 72
     },
     {
       "Data": "2022-06-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 3,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 13
     },
     {
       "Data": "2022-07-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 9,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 17
     },
     {
       "Data": "2022-08-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 8,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 39
     },
     {
       "Data": "2022-09-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 3,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 17
     },
     {
       "Data": "2022-10-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 7,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 13
     },
     {
       "Data": "2022-11-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 3,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 19
     },
     {
       "Data": "2022-12-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 35,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 21
     },
     {
       "Data": "2023-01-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 5,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 4
     },
     {
       "Data": "2023-02-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 0,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 23
     },
     {
       "Data": "2023-03-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 2,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 11
     },
     {
       "Data": "2023-04-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 9,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 15
     },
     {
       "Data": "2023-05-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 6,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 16
     },
     {
       "Data": "2023-06-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 8,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 23
     },
     {
       "Data": "2023-07-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 6,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 20
     },
     {
       "Data": "2023-08-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 6,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 15
     },
     {
       "Data": "2023-09-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 0,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 18
     },
     {
       "Data": "2023-10-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 4,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 32
     },
     {
       "Data": "2023-11-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 1,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 17
     },
     {
       "Data": "2023-12-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 6,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 11
     },
     {
       "Data": "2024-01-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 3,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 51
     },
     {
       "Data": "2024-02-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 7,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 34
     },
     {
       "Data": "2024-03-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 3,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 67
     },
     {
       "Data": "2024-04-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 15,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 107
     },
     {
       "Data": "2024-05-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 4,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 29
     },
     {
       "Data": "2024-06-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 3,
+      "Plano Unificado": 0,
+      "Plano IV": null,
       "Plano Família": 32
     },
     {
       "Data": "2024-07-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 19,
+      "Plano Unificado": 0,
       "Plano IV": 2,
       "Plano Família": 30
     },
     {
       "Data": "2024-08-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
-      "Plano IV": "",
+      "Plano III": 7,
+      "Plano Unificado": 0,
+      "Plano IV": 0,
       "Plano Família": 31
     },
     {
       "Data": "2024-09-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 11,
+      "Plano Unificado": 0,
       "Plano IV": 2,
       "Plano Família": 11
     },
     {
       "Data": "2024-10-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 2,
+      "Plano Unificado": 0,
       "Plano IV": 4,
       "Plano Família": 23
     },
     {
       "Data": "2024-11-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 10,
+      "Plano Unificado": 0,
       "Plano IV": 3,
       "Plano Família": 8
     },
     {
       "Data": "2024-12-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 5,
+      "Plano Unificado": 0,
       "Plano IV": 1,
       "Plano Família": 19
     },
     {
       "Data": "2025-01-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 3,
+      "Plano Unificado": 0,
       "Plano IV": 3,
       "Plano Família": 4
     },
     {
       "Data": "2025-02-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 5,
+      "Plano Unificado": 0,
       "Plano IV": 6,
       "Plano Família": 6
     },
     {
       "Data": "2025-03-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 5,
+      "Plano Unificado": 0,
       "Plano IV": 4,
       "Plano Família": 5
     },
     {
       "Data": "2025-04-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 1,
+      "Plano Unificado": 0,
       "Plano IV": 7,
       "Plano Família": 8
     },
     {
       "Data": "2025-05-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 7,
+      "Plano Unificado": 0,
       "Plano IV": 10,
       "Plano Família": 9
     },
     {
       "Data": "2025-06-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 7,
+      "Plano Unificado": 0,
       "Plano IV": 21,
       "Plano Família": 4
     },
     {
       "Data": "2025-07-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 7,
+      "Plano Unificado": 0,
       "Plano IV": 49,
       "Plano Família": 9
     },
     {
       "Data": "2025-08-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 8,
+      "Plano Unificado": 0,
       "Plano IV": 48,
       "Plano Família": 14
     },
     {
       "Data": "2025-09-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 7,
+      "Plano Unificado": 0,
       "Plano IV": 54,
       "Plano Família": 10
     },
     {
       "Data": "2025-10-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 6,
+      "Plano Unificado": 0,
       "Plano IV": 38,
       "Plano Família": 11
     },
     {
       "Data": "2025-11-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 9,
+      "Plano Unificado": 0,
       "Plano IV": 20,
       "Plano Família": 5
     },
     {
       "Data": "2025-12-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 5,
+      "Plano Unificado": 0,
       "Plano IV": 27,
       "Plano Família": 24
     },
     {
       "Data": "2026-01-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 3,
+      "Plano Unificado": 0,
       "Plano IV": 34,
       "Plano Família": 10
     },
     {
       "Data": "2026-02-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 1,
+      "Plano Unificado": 0,
       "Plano IV": 21,
       "Plano Família": 2
     },
     {
       "Data": "2026-03-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 1,
+      "Plano Unificado": 0,
       "Plano IV": 26,
       "Plano Família": 5
     },
     {
       "Data": "2026-04-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 1,
+      "Plano Unificado": 0,
       "Plano IV": 18,
       "Plano Família": 6
     },
     {
       "Data": "2026-05-01",
       "Descrição": "Adesão",
-      "Plano III": null,
-      "Plano Unificado": null,
+      "Plano III": 0,
+      "Plano Unificado": 0,
       "Plano IV": 45,
       "Plano Família": 2
     }
@@ -8080,5 +8108,2642 @@ const DASHBOARD_DATA = {
       "Plano": "Mutualismo",
       "Inadimplência": 376323.51
     }
+  ],
+  "Cota": [
+    {
+      "Data": "1998-09-03",
+      "Plano III": 1,
+      "Plano IV": null
+    },
+    {
+      "Data": "1998-10-01",
+      "Plano III": 1.0149479,
+      "Plano IV": null
+    },
+    {
+      "Data": "1998-11-03",
+      "Plano III": 1.0451482,
+      "Plano IV": null
+    },
+    {
+      "Data": "1998-12-01",
+      "Plano III": 1.1000795,
+      "Plano IV": null
+    },
+    {
+      "Data": "1999-01-04",
+      "Plano III": 1.0809593,
+      "Plano IV": null
+    },
+    {
+      "Data": "1999-02-01",
+      "Plano III": 1.1106849,
+      "Plano IV": null
+    },
+    {
+      "Data": "1999-03-01",
+      "Plano III": 1.1371824,
+      "Plano IV": null
+    },
+    {
+      "Data": "1999-04-05",
+      "Plano III": 1.1928411,
+      "Plano IV": null
+    },
+    {
+      "Data": "1999-05-01",
+      "Plano III": 1.2245539,
+      "Plano IV": null
+    },
+    {
+      "Data": "1999-06-01",
+      "Plano III": 1.2512385,
+      "Plano IV": null
+    },
+    {
+      "Data": "1999-07-01",
+      "Plano III": 1.2759251,
+      "Plano IV": null
+    },
+    {
+      "Data": "1999-08-01",
+      "Plano III": 1.2691039,
+      "Plano IV": null
+    },
+    {
+      "Data": "1999-09-01",
+      "Plano III": 1.2881972,
+      "Plano IV": null
+    },
+    {
+      "Data": "1999-10-01",
+      "Plano III": 1.3291985,
+      "Plano IV": null
+    },
+    {
+      "Data": "1999-11-01",
+      "Plano III": 1.3544423,
+      "Plano IV": null
+    },
+    {
+      "Data": "1999-12-01",
+      "Plano III": 1.4171074,
+      "Plano IV": null
+    },
+    {
+      "Data": "2000-01-01",
+      "Plano III": 1.5033532,
+      "Plano IV": null
+    },
+    {
+      "Data": "2000-02-01",
+      "Plano III": 1.5101151,
+      "Plano IV": null
+    },
+    {
+      "Data": "2000-03-01",
+      "Plano III": 1.5460994,
+      "Plano IV": null
+    },
+    {
+      "Data": "2000-04-01",
+      "Plano III": 1.5611205,
+      "Plano IV": null
+    },
+    {
+      "Data": "2000-05-02",
+      "Plano III": 1.5400423,
+      "Plano IV": null
+    },
+    {
+      "Data": "2000-06-01",
+      "Plano III": 1.554737,
+      "Plano IV": null
+    },
+    {
+      "Data": "2000-07-01",
+      "Plano III": 1.630015,
+      "Plano IV": null
+    },
+    {
+      "Data": "2000-08-01",
+      "Plano III": 1.6435452,
+      "Plano IV": null
+    },
+    {
+      "Data": "2000-09-01",
+      "Plano III": 1.6787947,
+      "Plano IV": null
+    },
+    {
+      "Data": "2000-10-01",
+      "Plano III": 1.6587353,
+      "Plano IV": null
+    },
+    {
+      "Data": "2000-11-01",
+      "Plano III": 1.6514776,
+      "Plano IV": null
+    },
+    {
+      "Data": "2000-12-01",
+      "Plano III": 1.6221312,
+      "Plano IV": null
+    },
+    {
+      "Data": "2001-01-01",
+      "Plano III": 1.6830962,
+      "Plano IV": null
+    },
+    {
+      "Data": "2001-02-01",
+      "Plano III": 1.7745204,
+      "Plano IV": null
+    },
+    {
+      "Data": "2001-03-01",
+      "Plano III": 1.7448892,
+      "Plano IV": null
+    },
+    {
+      "Data": "2001-04-01",
+      "Plano III": 1.7075612,
+      "Plano IV": null
+    },
+    {
+      "Data": "2001-05-01",
+      "Plano III": 1.7470058,
+      "Plano IV": null
+    },
+    {
+      "Data": "2001-06-01",
+      "Plano III": 1.7667929,
+      "Plano IV": null
+    },
+    {
+      "Data": "2001-07-01",
+      "Plano III": 1.7709887,
+      "Plano IV": null
+    },
+    {
+      "Data": "2001-08-01",
+      "Plano III": 1.7782735,
+      "Plano IV": null
+    },
+    {
+      "Data": "2001-09-01",
+      "Plano III": 1.7852057,
+      "Plano IV": null
+    },
+    {
+      "Data": "2001-10-01",
+      "Plano III": 1.7616956,
+      "Plano IV": null
+    },
+    {
+      "Data": "2001-11-01",
+      "Plano III": 1.7966069,
+      "Plano IV": null
+    },
+    {
+      "Data": "2001-12-01",
+      "Plano III": 1.8477902,
+      "Plano IV": null
+    },
+    {
+      "Data": "2002-01-01",
+      "Plano III": 1.9100221,
+      "Plano IV": null
+    },
+    {
+      "Data": "2002-02-01",
+      "Plano III": 1.9140885,
+      "Plano IV": null
+    },
+    {
+      "Data": "2002-03-01",
+      "Plano III": 1.9834875,
+      "Plano IV": null
+    },
+    {
+      "Data": "2002-04-01",
+      "Plano III": 1.9864859,
+      "Plano IV": null
+    },
+    {
+      "Data": "2002-05-01",
+      "Plano III": 2.0026117,
+      "Plano IV": null
+    },
+    {
+      "Data": "2002-06-01",
+      "Plano III": 2.012278,
+      "Plano IV": null
+    },
+    {
+      "Data": "2002-07-01",
+      "Plano III": 1.9726141,
+      "Plano IV": null
+    },
+    {
+      "Data": "2002-08-01",
+      "Plano III": 1.9590404,
+      "Plano IV": null
+    },
+    {
+      "Data": "2002-09-01",
+      "Plano III": 2.0138906,
+      "Plano IV": null
+    },
+    {
+      "Data": "2002-10-01",
+      "Plano III": 1.9826572,
+      "Plano IV": null
+    },
+    {
+      "Data": "2002-11-01",
+      "Plano III": 2.0714983,
+      "Plano IV": null
+    },
+    {
+      "Data": "2002-12-01",
+      "Plano III": 2.1042004,
+      "Plano IV": null
+    },
+    {
+      "Data": "2003-01-01",
+      "Plano III": 2.1824514,
+      "Plano IV": null
+    },
+    {
+      "Data": "2003-02-01",
+      "Plano III": 2.20783,
+      "Plano IV": null
+    },
+    {
+      "Data": "2003-03-01",
+      "Plano III": 2.2262466,
+      "Plano IV": null
+    },
+    {
+      "Data": "2003-04-01",
+      "Plano III": 2.2866278,
+      "Plano IV": null
+    },
+    {
+      "Data": "2003-05-01",
+      "Plano III": 2.3606941,
+      "Plano IV": null
+    },
+    {
+      "Data": "2003-06-01",
+      "Plano III": 2.41942,
+      "Plano IV": null
+    },
+    {
+      "Data": "2003-07-01",
+      "Plano III": 2.4321727,
+      "Plano IV": null
+    },
+    {
+      "Data": "2003-08-01",
+      "Plano III": 2.4952897,
+      "Plano IV": null
+    },
+    {
+      "Data": "2003-09-01",
+      "Plano III": 2.5858027,
+      "Plano IV": null
+    },
+    {
+      "Data": "2003-10-01",
+      "Plano III": 2.6529316,
+      "Plano IV": null
+    },
+    {
+      "Data": "2003-11-01",
+      "Plano III": 2.7391157,
+      "Plano IV": null
+    },
+    {
+      "Data": "2003-12-01",
+      "Plano III": 2.8424476,
+      "Plano IV": null
+    },
+    {
+      "Data": "2004-01-01",
+      "Plano III": 2.9577986,
+      "Plano IV": null
+    },
+    {
+      "Data": "2004-02-01",
+      "Plano III": 2.9999336,
+      "Plano IV": null
+    },
+    {
+      "Data": "2004-03-01",
+      "Plano III": 3.0153311,
+      "Plano IV": null
+    },
+    {
+      "Data": "2004-04-01",
+      "Plano III": 3.0581153,
+      "Plano IV": null
+    },
+    {
+      "Data": "2004-05-01",
+      "Plano III": 3.012636,
+      "Plano IV": null
+    },
+    {
+      "Data": "2004-06-01",
+      "Plano III": 3.0428564,
+      "Plano IV": null
+    },
+    {
+      "Data": "2004-07-01",
+      "Plano III": 3.1250812,
+      "Plano IV": null
+    },
+    {
+      "Data": "2004-08-01",
+      "Plano III": 3.227397,
+      "Plano IV": null
+    },
+    {
+      "Data": "2004-09-01",
+      "Plano III": 3.3145725,
+      "Plano IV": null
+    },
+    {
+      "Data": "2004-10-01",
+      "Plano III": 3.379241,
+      "Plano IV": null
+    },
+    {
+      "Data": "2004-11-01",
+      "Plano III": 3.4124501,
+      "Plano IV": null
+    },
+    {
+      "Data": "2004-12-01",
+      "Plano III": 3.4832229,
+      "Plano IV": null
+    },
+    {
+      "Data": "2005-01-01",
+      "Plano III": 3.6104357,
+      "Plano IV": null
+    },
+    {
+      "Data": "2005-02-01",
+      "Plano III": 3.5978057,
+      "Plano IV": null
+    },
+    {
+      "Data": "2005-03-01",
+      "Plano III": 3.7413099,
+      "Plano IV": null
+    },
+    {
+      "Data": "2005-04-01",
+      "Plano III": 3.7098732,
+      "Plano IV": null
+    },
+    {
+      "Data": "2005-05-01",
+      "Plano III": 3.6785173,
+      "Plano IV": null
+    },
+    {
+      "Data": "2005-06-01",
+      "Plano III": 3.7296965,
+      "Plano IV": null
+    },
+    {
+      "Data": "2005-07-01",
+      "Plano III": 3.7568825,
+      "Plano IV": null
+    },
+    {
+      "Data": "2005-08-01",
+      "Plano III": 3.8433696,
+      "Plano IV": null
+    },
+    {
+      "Data": "2005-09-01",
+      "Plano III": 3.9539443,
+      "Plano IV": null
+    },
+    {
+      "Data": "2005-10-01",
+      "Plano III": 4.1104599,
+      "Plano IV": null
+    },
+    {
+      "Data": "2005-11-01",
+      "Plano III": 4.1153943,
+      "Plano IV": null
+    },
+    {
+      "Data": "2005-12-01",
+      "Plano III": 4.2009271,
+      "Plano IV": null
+    },
+    {
+      "Data": "2006-01-01",
+      "Plano III": 4.3235765,
+      "Plano IV": null
+    },
+    {
+      "Data": "2006-02-01",
+      "Plano III": 4.5542742,
+      "Plano IV": null
+    },
+    {
+      "Data": "2006-03-01",
+      "Plano III": 4.5946647,
+      "Plano IV": null
+    },
+    {
+      "Data": "2006-04-01",
+      "Plano III": 4.6073139,
+      "Plano IV": null
+    },
+    {
+      "Data": "2006-05-01",
+      "Plano III": 4.6700447,
+      "Plano IV": null
+    },
+    {
+      "Data": "2006-06-01",
+      "Plano III": 4.6008098,
+      "Plano IV": null
+    },
+    {
+      "Data": "2006-07-01",
+      "Plano III": 4.6286898,
+      "Plano IV": null
+    },
+    {
+      "Data": "2006-08-01",
+      "Plano III": 4.6971304,
+      "Plano IV": null
+    },
+    {
+      "Data": "2006-09-01",
+      "Plano III": 4.7212022,
+      "Plano IV": null
+    },
+    {
+      "Data": "2006-10-01",
+      "Plano III": 4.756234,
+      "Plano IV": null
+    },
+    {
+      "Data": "2006-11-01",
+      "Plano III": 4.8832301,
+      "Plano IV": null
+    },
+    {
+      "Data": "2006-12-01",
+      "Plano III": 5.0090315,
+      "Plano IV": null
+    },
+    {
+      "Data": "2007-01-01",
+      "Plano III": 5.1476358,
+      "Plano IV": null
+    },
+    {
+      "Data": "2007-02-01",
+      "Plano III": 5.2006549,
+      "Plano IV": null
+    },
+    {
+      "Data": "2007-03-01",
+      "Plano III": 5.220431,
+      "Plano IV": null
+    },
+    {
+      "Data": "2007-04-01",
+      "Plano III": 5.3254572,
+      "Plano IV": null
+    },
+    {
+      "Data": "2007-05-01",
+      "Plano III": 5.4746766,
+      "Plano IV": null
+    },
+    {
+      "Data": "2007-06-01",
+      "Plano III": 5.6203339,
+      "Plano IV": null
+    },
+    {
+      "Data": "2007-07-01",
+      "Plano III": 5.7019179,
+      "Plano IV": null
+    },
+    {
+      "Data": "2007-08-01",
+      "Plano III": 5.7571627,
+      "Plano IV": null
+    },
+    {
+      "Data": "2007-09-01",
+      "Plano III": 5.7523297,
+      "Plano IV": null
+    },
+    {
+      "Data": "2007-10-01",
+      "Plano III": 5.9952466,
+      "Plano IV": null
+    },
+    {
+      "Data": "2007-11-01",
+      "Plano III": 6.1592916,
+      "Plano IV": null
+    },
+    {
+      "Data": "2007-12-01",
+      "Plano III": 6.139783,
+      "Plano IV": null
+    },
+    {
+      "Data": "2008-01-01",
+      "Plano III": 6.2024705,
+      "Plano IV": null
+    },
+    {
+      "Data": "2008-02-01",
+      "Plano III": 6.1289521,
+      "Plano IV": null
+    },
+    {
+      "Data": "2008-03-01",
+      "Plano III": 6.290904,
+      "Plano IV": null
+    },
+    {
+      "Data": "2008-04-01",
+      "Plano III": 6.2500697,
+      "Plano IV": null
+    },
+    {
+      "Data": "2008-05-01",
+      "Plano III": 6.4041438,
+      "Plano IV": null
+    },
+    {
+      "Data": "2008-06-01",
+      "Plano III": 6.5757749,
+      "Plano IV": null
+    },
+    {
+      "Data": "2008-07-01",
+      "Plano III": 6.5023435,
+      "Plano IV": null
+    },
+    {
+      "Data": "2008-08-01",
+      "Plano III": 6.4344807,
+      "Plano IV": null
+    },
+    {
+      "Data": "2008-09-01",
+      "Plano III": 6.4189431,
+      "Plano IV": null
+    },
+    {
+      "Data": "2008-10-01",
+      "Plano III": 6.3689652,
+      "Plano IV": null
+    },
+    {
+      "Data": "2008-11-01",
+      "Plano III": 6.1738823,
+      "Plano IV": null
+    },
+    {
+      "Data": "2008-12-01",
+      "Plano III": 6.2415668,
+      "Plano IV": null
+    },
+    {
+      "Data": "2009-01-01",
+      "Plano III": 6.4048167,
+      "Plano IV": null
+    },
+    {
+      "Data": "2009-02-01",
+      "Plano III": 6.5103057,
+      "Plano IV": null
+    },
+    {
+      "Data": "2009-03-01",
+      "Plano III": 6.5589738,
+      "Plano IV": null
+    },
+    {
+      "Data": "2009-04-01",
+      "Plano III": 6.6879358,
+      "Plano IV": null
+    },
+    {
+      "Data": "2009-05-01",
+      "Plano III": 6.8261121,
+      "Plano IV": null
+    },
+    {
+      "Data": "2009-06-01",
+      "Plano III": 6.9928567,
+      "Plano IV": null
+    },
+    {
+      "Data": "2009-07-01",
+      "Plano III": 7.0216868,
+      "Plano IV": null
+    },
+    {
+      "Data": "2009-08-01",
+      "Plano III": 7.1114322,
+      "Plano IV": null
+    },
+    {
+      "Data": "2009-09-01",
+      "Plano III": 7.1700096,
+      "Plano IV": null
+    },
+    {
+      "Data": "2009-10-01",
+      "Plano III": 7.2996801,
+      "Plano IV": null
+    },
+    {
+      "Data": "2009-11-01",
+      "Plano III": 7.3369312,
+      "Plano IV": null
+    },
+    {
+      "Data": "2009-12-01",
+      "Plano III": 7.4731092,
+      "Plano IV": null
+    },
+    {
+      "Data": "2010-01-01",
+      "Plano III": 7.5384373,
+      "Plano IV": null
+    },
+    {
+      "Data": "2010-02-01",
+      "Plano III": 7.5585704,
+      "Plano IV": null
+    },
+    {
+      "Data": "2010-03-01",
+      "Plano III": 7.6397773,
+      "Plano IV": null
+    },
+    {
+      "Data": "2010-04-01",
+      "Plano III": 7.7666688,
+      "Plano IV": null
+    },
+    {
+      "Data": "2010-05-01",
+      "Plano III": 7.7829129,
+      "Plano IV": null
+    },
+    {
+      "Data": "2010-06-01",
+      "Plano III": 7.7556176,
+      "Plano IV": null
+    },
+    {
+      "Data": "2010-07-01",
+      "Plano III": 7.7780776,
+      "Plano IV": null
+    },
+    {
+      "Data": "2010-08-01",
+      "Plano III": 7.9698852,
+      "Plano IV": null
+    },
+    {
+      "Data": "2010-09-01",
+      "Plano III": 8.0072773,
+      "Plano IV": null
+    },
+    {
+      "Data": "2010-10-01",
+      "Plano III": 8.1497769,
+      "Plano IV": null
+    },
+    {
+      "Data": "2010-11-01",
+      "Plano III": 8.2453207,
+      "Plano IV": null
+    },
+    {
+      "Data": "2010-12-01",
+      "Plano III": 8.2643139,
+      "Plano IV": null
+    },
+    {
+      "Data": "2011-01-01",
+      "Plano III": 8.3982301,
+      "Plano IV": null
+    },
+    {
+      "Data": "2011-02-01",
+      "Plano III": 8.4123552,
+      "Plano IV": null
+    },
+    {
+      "Data": "2011-03-01",
+      "Plano III": 8.5036855,
+      "Plano IV": null
+    },
+    {
+      "Data": "2011-04-01",
+      "Plano III": 8.6126981,
+      "Plano IV": null
+    },
+    {
+      "Data": "2011-05-01",
+      "Plano III": 8.6175216,
+      "Plano IV": null
+    },
+    {
+      "Data": "2011-06-01",
+      "Plano III": 8.6538334,
+      "Plano IV": null
+    },
+    {
+      "Data": "2011-07-01",
+      "Plano III": 8.6875075,
+      "Plano IV": null
+    },
+    {
+      "Data": "2011-08-01",
+      "Plano III": 8.6815041,
+      "Plano IV": null
+    },
+    {
+      "Data": "2011-09-01",
+      "Plano III": 8.7655359,
+      "Plano IV": null
+    },
+    {
+      "Data": "2011-10-01",
+      "Plano III": 8.9722934,
+      "Plano IV": null
+    },
+    {
+      "Data": "2011-11-01",
+      "Plano III": 8.9756145,
+      "Plano IV": null
+    },
+    {
+      "Data": "2011-12-01",
+      "Plano III": 9.042582,
+      "Plano IV": null
+    },
+    {
+      "Data": "2012-01-02",
+      "Plano III": 9.1297676,
+      "Plano IV": null
+    },
+    {
+      "Data": "2012-02-01",
+      "Plano III": 9.3636812,
+      "Plano IV": null
+    },
+    {
+      "Data": "2012-03-01",
+      "Plano III": 9.5236229,
+      "Plano IV": null
+    },
+    {
+      "Data": "2012-04-01",
+      "Plano III": 9.6188328,
+      "Plano IV": null
+    },
+    {
+      "Data": "2012-05-02",
+      "Plano III": 9.7523915,
+      "Plano IV": null
+    },
+    {
+      "Data": "2012-06-01",
+      "Plano III": 9.7418446,
+      "Plano IV": null
+    },
+    {
+      "Data": "2012-07-02",
+      "Plano III": 9.775342,
+      "Plano IV": null
+    },
+    {
+      "Data": "2012-08-01",
+      "Plano III": 9.9567985,
+      "Plano IV": null
+    },
+    {
+      "Data": "2012-09-03",
+      "Plano III": 10.0841967246,
+      "Plano IV": null
+    },
+    {
+      "Data": "2012-10-01",
+      "Plano III": 10.2188531379,
+      "Plano IV": null
+    },
+    {
+      "Data": "2012-11-01",
+      "Plano III": 10.4535447955,
+      "Plano IV": null
+    },
+    {
+      "Data": "2012-12-03",
+      "Plano III": 10.5526019253,
+      "Plano IV": null
+    },
+    {
+      "Data": "2013-01-02",
+      "Plano III": 10.7893025537,
+      "Plano IV": null
+    },
+    {
+      "Data": "2013-02-01",
+      "Plano III": 10.8681572493,
+      "Plano IV": null
+    },
+    {
+      "Data": "2013-03-01",
+      "Plano III": 10.8230294733,
+      "Plano IV": null
+    },
+    {
+      "Data": "2013-04-01",
+      "Plano III": 10.756885068,
+      "Plano IV": null
+    },
+    {
+      "Data": "2013-05-02",
+      "Plano III": 10.8718309657,
+      "Plano IV": null
+    },
+    {
+      "Data": "2013-06-03",
+      "Plano III": 10.675306343,
+      "Plano IV": null
+    },
+    {
+      "Data": "2013-07-01",
+      "Plano III": 10.3925935659,
+      "Plano IV": null
+    },
+    {
+      "Data": "2013-08-01",
+      "Plano III": 10.4578887928,
+      "Plano IV": null
+    },
+    {
+      "Data": "2013-09-02",
+      "Plano III": 10.4124346461,
+      "Plano IV": null
+    },
+    {
+      "Data": "2013-10-01",
+      "Plano III": 10.5260205693,
+      "Plano IV": null
+    },
+    {
+      "Data": "2013-11-01",
+      "Plano III": 10.6911192441,
+      "Plano IV": null
+    },
+    {
+      "Data": "2013-12-02",
+      "Plano III": 10.563306406,
+      "Plano IV": null
+    },
+    {
+      "Data": "2014-01-02",
+      "Plano III": 10.6060079957,
+      "Plano IV": null
+    },
+    {
+      "Data": "2014-02-03",
+      "Plano III": 10.36528919,
+      "Plano IV": null
+    },
+    {
+      "Data": "2014-03-03",
+      "Plano III": 10.5903615836,
+      "Plano IV": null
+    },
+    {
+      "Data": "2014-04-01",
+      "Plano III": 10.7745645312,
+      "Plano IV": null
+    },
+    {
+      "Data": "2014-05-02",
+      "Plano III": 10.9652753808,
+      "Plano IV": null
+    },
+    {
+      "Data": "2014-06-02",
+      "Plano III": 11.231699692,
+      "Plano IV": null
+    },
+    {
+      "Data": "2014-07-01",
+      "Plano III": 11.3496879762,
+      "Plano IV": null
+    },
+    {
+      "Data": "2014-08-01",
+      "Plano III": 11.5055595329,
+      "Plano IV": null
+    },
+    {
+      "Data": "2014-09-01",
+      "Plano III": 11.953803431,
+      "Plano IV": null
+    },
+    {
+      "Data": "2014-10-01",
+      "Plano III": 11.5939339671,
+      "Plano IV": null
+    },
+    {
+      "Data": "2014-11-03",
+      "Plano III": 11.7593886097,
+      "Plano IV": null
+    },
+    {
+      "Data": "2014-12-01",
+      "Plano III": 11.8759094328,
+      "Plano IV": null
+    },
+    {
+      "Data": "2015-01-02",
+      "Plano III": 11.6962943132,
+      "Plano IV": null
+    },
+    {
+      "Data": "2015-02-02",
+      "Plano III": 11.7296623183,
+      "Plano IV": null
+    },
+    {
+      "Data": "2015-03-02",
+      "Plano III": 11.9594712554,
+      "Plano IV": null
+    },
+    {
+      "Data": "2015-04-01",
+      "Plano III": 12.026765341,
+      "Plano IV": null
+    },
+    {
+      "Data": "2015-05-04",
+      "Plano III": 12.3409260959,
+      "Plano IV": null
+    },
+    {
+      "Data": "2015-06-01",
+      "Plano III": 12.4105345058,
+      "Plano IV": null
+    },
+    {
+      "Data": "2015-07-01",
+      "Plano III": 12.4669508837,
+      "Plano IV": null
+    },
+    {
+      "Data": "2015-08-03",
+      "Plano III": 12.4529474896,
+      "Plano IV": null
+    },
+    {
+      "Data": "2015-09-01",
+      "Plano III": 12.2387546272,
+      "Plano IV": null
+    },
+    {
+      "Data": "2015-10-01",
+      "Plano III": 12.2504429078,
+      "Plano IV": null
+    },
+    {
+      "Data": "2015-11-03",
+      "Plano III": 12.463892038,
+      "Plano IV": null
+    },
+    {
+      "Data": "2015-12-01",
+      "Plano III": 12.5526008065,
+      "Plano IV": null
+    },
+    {
+      "Data": "2016-01-04",
+      "Plano III": 12.6931373096,
+      "Plano IV": null
+    },
+    {
+      "Data": "2016-02-01",
+      "Plano III": 12.8248185376,
+      "Plano IV": null
+    },
+    {
+      "Data": "2016-03-01",
+      "Plano III": 13.0667558448,
+      "Plano IV": null
+    },
+    {
+      "Data": "2016-04-01",
+      "Plano III": 13.5815527124,
+      "Plano IV": null
+    },
+    {
+      "Data": "2016-05-02",
+      "Plano III": 13.9533583238,
+      "Plano IV": null
+    },
+    {
+      "Data": "2016-06-01",
+      "Plano III": 13.9259468749,
+      "Plano IV": null
+    },
+    {
+      "Data": "2016-07-01",
+      "Plano III": 14.1887313436,
+      "Plano IV": null
+    },
+    {
+      "Data": "2016-08-01",
+      "Plano III": 14.567633299,
+      "Plano IV": null
+    },
+    {
+      "Data": "2016-09-01",
+      "Plano III": 14.7166168783,
+      "Plano IV": null
+    },
+    {
+      "Data": "2016-10-03",
+      "Plano III": 14.9023381033,
+      "Plano IV": null
+    },
+    {
+      "Data": "2016-11-01",
+      "Plano III": 15.1650537094,
+      "Plano IV": null
+    },
+    {
+      "Data": "2016-12-01",
+      "Plano III": 15.0227333416,
+      "Plano IV": null
+    },
+    {
+      "Data": "2017-01-02",
+      "Plano III": 15.2362268681,
+      "Plano IV": null
+    },
+    {
+      "Data": "2017-02-01",
+      "Plano III": 15.5796948145,
+      "Plano IV": null
+    },
+    {
+      "Data": "2017-03-01",
+      "Plano III": 15.993471532,
+      "Plano IV": null
+    },
+    {
+      "Data": "2017-04-03",
+      "Plano III": 16.0927874067,
+      "Plano IV": null
+    },
+    {
+      "Data": "2017-05-02",
+      "Plano III": 16.1332272789,
+      "Plano IV": null
+    },
+    {
+      "Data": "2017-06-01",
+      "Plano III": 16.0192513825,
+      "Plano IV": null
+    },
+    {
+      "Data": "2017-07-03",
+      "Plano III": 16.1290056499,
+      "Plano IV": null
+    },
+    {
+      "Data": "2017-08-01",
+      "Plano III": 16.6208220366,
+      "Plano IV": null
+    },
+    {
+      "Data": "2017-09-01",
+      "Plano III": 16.9236263052,
+      "Plano IV": null
+    },
+    {
+      "Data": "2017-10-02",
+      "Plano III": 17.2407352025,
+      "Plano IV": null
+    },
+    {
+      "Data": "2017-11-01",
+      "Plano III": 17.2390944754,
+      "Plano IV": null
+    },
+    {
+      "Data": "2017-12-01",
+      "Plano III": 17.1160442113,
+      "Plano IV": null
+    },
+    {
+      "Data": "2018-01-02",
+      "Plano III": 17.395236339,
+      "Plano IV": null
+    },
+    {
+      "Data": "2018-02-01",
+      "Plano III": 17.9515556588,
+      "Plano IV": null
+    },
+    {
+      "Data": "2018-03-01",
+      "Plano III": 18.0720015692,
+      "Plano IV": null
+    },
+    {
+      "Data": "2018-04-02",
+      "Plano III": 18.1503944362,
+      "Plano IV": null
+    },
+    {
+      "Data": "2018-05-02",
+      "Plano III": 18.1372035276,
+      "Plano IV": null
+    },
+    {
+      "Data": "2018-06-01",
+      "Plano III": 17.643661326,
+      "Plano IV": null
+    },
+    {
+      "Data": "2018-07-02",
+      "Plano III": 17.5651347808,
+      "Plano IV": null
+    },
+    {
+      "Data": "2018-08-01",
+      "Plano III": 17.9861335389,
+      "Plano IV": null
+    },
+    {
+      "Data": "2018-09-03",
+      "Plano III": 17.8954387613,
+      "Plano IV": null
+    },
+    {
+      "Data": "2018-10-01",
+      "Plano III": 18.0454774274,
+      "Plano IV": null
+    },
+    {
+      "Data": "2018-11-01",
+      "Plano III": 19.0186229536,
+      "Plano IV": null
+    },
+    {
+      "Data": "2018-12-03",
+      "Plano III": 19.255516141,
+      "Plano IV": null
+    },
+    {
+      "Data": "2019-01-02",
+      "Plano III": 19.5663980084,
+      "Plano IV": null
+    },
+    {
+      "Data": "2019-02-01",
+      "Plano III": 20.2895350624,
+      "Plano IV": null
+    },
+    {
+      "Data": "2019-03-01",
+      "Plano III": 20.3244970263,
+      "Plano IV": null
+    },
+    {
+      "Data": "2019-04-01",
+      "Plano III": 20.4266568424,
+      "Plano IV": null
+    },
+    {
+      "Data": "2019-05-02",
+      "Plano III": 20.6844759633,
+      "Plano IV": null
+    },
+    {
+      "Data": "2019-06-03",
+      "Plano III": 21.2066688929,
+      "Plano IV": null
+    },
+    {
+      "Data": "2019-07-01",
+      "Plano III": 21.9013195896,
+      "Plano IV": null
+    },
+    {
+      "Data": "2019-08-01",
+      "Plano III": 22.2024696294,
+      "Plano IV": null
+    },
+    {
+      "Data": "2019-09-02",
+      "Plano III": 22.133792075,
+      "Plano IV": null
+    },
+    {
+      "Data": "2019-10-01",
+      "Plano III": 22.6824177779,
+      "Plano IV": null
+    },
+    {
+      "Data": "2019-11-01",
+      "Plano III": 23.2354280206,
+      "Plano IV": null
+    },
+    {
+      "Data": "2019-12-02",
+      "Plano III": 23.0560265752,
+      "Plano IV": null
+    },
+    {
+      "Data": "2020-01-02",
+      "Plano III": 23.8353742458,
+      "Plano IV": null
+    },
+    {
+      "Data": "2020-02-03",
+      "Plano III": 23.8878101766,
+      "Plano IV": null
+    },
+    {
+      "Data": "2020-03-02",
+      "Plano III": 23.569228274,
+      "Plano IV": null
+    },
+    {
+      "Data": "2020-04-01",
+      "Plano III": 21.3670347298,
+      "Plano IV": null
+    },
+    {
+      "Data": "2020-05-04",
+      "Plano III": 21.9520181592,
+      "Plano IV": null
+    },
+    {
+      "Data": "2020-06-01",
+      "Plano III": 22.5893745297,
+      "Plano IV": null
+    },
+    {
+      "Data": "2020-07-01",
+      "Plano III": 23.1478422268,
+      "Plano IV": null
+    },
+    {
+      "Data": "2020-08-03",
+      "Plano III": 24.056848735,
+      "Plano IV": null
+    },
+    {
+      "Data": "2020-09-01",
+      "Plano III": 23.8423192104,
+      "Plano IV": null
+    },
+    {
+      "Data": "2020-10-01",
+      "Plano III": 23.3937439132,
+      "Plano IV": null
+    },
+    {
+      "Data": "2020-11-03",
+      "Plano III": 23.4007244197,
+      "Plano IV": null
+    },
+    {
+      "Data": "2020-12-01",
+      "Plano III": 24.353617194,
+      "Plano IV": null
+    },
+    {
+      "Data": "2021-01-04",
+      "Plano III": 25.4912284701,
+      "Plano IV": null
+    },
+    {
+      "Data": "2021-02-01",
+      "Plano III": 25.2412627471,
+      "Plano IV": null
+    },
+    {
+      "Data": "2021-03-01",
+      "Plano III": 25.0637311934,
+      "Plano IV": null
+    },
+    {
+      "Data": "2021-04-01",
+      "Plano III": 25.0156395451,
+      "Plano IV": null
+    },
+    {
+      "Data": "2021-05-03",
+      "Plano III": 25.469888675,
+      "Plano IV": null
+    },
+    {
+      "Data": "2021-06-01",
+      "Plano III": 25.9179089259,
+      "Plano IV": null
+    },
+    {
+      "Data": "2021-07-01",
+      "Plano III": 26.0583755198,
+      "Plano IV": null
+    },
+    {
+      "Data": "2021-08-02",
+      "Plano III": 25.7628296626,
+      "Plano IV": null
+    },
+    {
+      "Data": "2021-09-01",
+      "Plano III": 25.4360874914,
+      "Plano IV": null
+    },
+    {
+      "Data": "2021-10-01",
+      "Plano III": 25.3422744826,
+      "Plano IV": null
+    },
+    {
+      "Data": "2021-11-01",
+      "Plano III": 24.73925222,
+      "Plano IV": null
+    },
+    {
+      "Data": "2021-12-01",
+      "Plano III": 24.9506523681,
+      "Plano IV": null
+    },
+    {
+      "Data": "2022-01-03",
+      "Plano III": 25.2645764321,
+      "Plano IV": null
+    },
+    {
+      "Data": "2022-02-01",
+      "Plano III": 25.289743288,
+      "Plano IV": null
+    },
+    {
+      "Data": "2022-03-02",
+      "Plano III": 25.4154160442,
+      "Plano IV": null
+    },
+    {
+      "Data": "2022-04-01",
+      "Plano III": 26.0080268597,
+      "Plano IV": null
+    },
+    {
+      "Data": "2022-05-02",
+      "Plano III": 25.9939071406,
+      "Plano IV": null
+    },
+    {
+      "Data": "2022-06-01",
+      "Plano III": 26.1700944579,
+      "Plano IV": null
+    },
+    {
+      "Data": "2022-07-01",
+      "Plano III": 25.9262409044,
+      "Plano IV": null
+    },
+    {
+      "Data": "2022-08-01",
+      "Plano III": 26.2431920341,
+      "Plano IV": null
+    },
+    {
+      "Data": "2022-09-01",
+      "Plano III": 26.6558434714,
+      "Plano IV": null
+    },
+    {
+      "Data": "2022-10-03",
+      "Plano III": 26.7479831767,
+      "Plano IV": null
+    },
+    {
+      "Data": "2022-11-01",
+      "Plano III": 27.0922103832,
+      "Plano IV": null
+    },
+    {
+      "Data": "2022-12-01",
+      "Plano III": 26.6387495194,
+      "Plano IV": null
+    },
+    {
+      "Data": "2023-01-02",
+      "Plano III": 26.6978969558,
+      "Plano IV": null
+    },
+    {
+      "Data": "2023-02-01",
+      "Plano III": 26.893261416,
+      "Plano IV": null
+    },
+    {
+      "Data": "2023-03-01",
+      "Plano III": 26.8584523872,
+      "Plano IV": null
+    },
+    {
+      "Data": "2023-04-03",
+      "Plano III": 27.0215770333,
+      "Plano IV": null
+    },
+    {
+      "Data": "2023-05-02",
+      "Plano III": 27.3478099188,
+      "Plano IV": null
+    },
+    {
+      "Data": "2023-06-01",
+      "Plano III": 27.9176345789,
+      "Plano IV": null
+    },
+    {
+      "Data": "2023-07-03",
+      "Plano III": 28.5467090171,
+      "Plano IV": null
+    },
+    {
+      "Data": "2023-08-01",
+      "Plano III": 28.8976623121,
+      "Plano IV": null
+    },
+    {
+      "Data": "2023-09-01",
+      "Plano III": 28.7502999113,
+      "Plano IV": null
+    },
+    {
+      "Data": "2023-10-02",
+      "Plano III": 28.6858187501,
+      "Plano IV": null
+    },
+    {
+      "Data": "2023-11-01",
+      "Plano III": 28.4802261291,
+      "Plano IV": null
+    },
+    {
+      "Data": "2023-12-01",
+      "Plano III": 29.3839684852,
+      "Plano IV": null
+    },
+    {
+      "Data": "2024-01-02",
+      "Plano III": 30.0984672867,
+      "Plano IV": null
+    },
+    {
+      "Data": "2024-02-01",
+      "Plano III": 30.0725865531,
+      "Plano IV": null
+    },
+    {
+      "Data": "2024-03-01",
+      "Plano III": 30.2761904648,
+      "Plano IV": null
+    },
+    {
+      "Data": "2024-04-01",
+      "Plano III": 30.5401950158,
+      "Plano IV": null
+    },
+    {
+      "Data": "2024-05-02",
+      "Plano III": 30.1869733709,
+      "Plano IV": null
+    },
+    {
+      "Data": "2024-06-03",
+      "Plano III": 30.3773813655,
+      "Plano IV": null
+    },
+    {
+      "Data": "2024-07-01",
+      "Plano III": 30.5072198997,
+      "Plano IV": 1
+    },
+    {
+      "Data": "2024-08-01",
+      "Plano III": 30.9915197898,
+      "Plano IV": 1
+    },
+    {
+      "Data": "2024-09-02",
+      "Plano III": 31.3191494057,
+      "Plano IV": 1.00764111
+    },
+    {
+      "Data": "2024-10-01",
+      "Plano III": 31.3365766835,
+      "Plano IV": 1.01571651
+    },
+    {
+      "Data": "2024-11-01",
+      "Plano III": 31.3594376198,
+      "Plano IV": 1.017968362
+    },
+    {
+      "Data": "2024-12-02",
+      "Plano III": 31.390621081,
+      "Plano IV": 1.020047874
+    },
+    {
+      "Data": "2025-01-02",
+      "Plano III": 31.0796118306,
+      "Plano IV": 1.017987435
+    },
+    {
+      "Data": "2025-02-03",
+      "Plano III": 31.4092791086,
+      "Plano IV": 1.032549923
+    },
+    {
+      "Data": "2025-03-05",
+      "Plano III": 31.5050172922,
+      "Plano IV": 1.038632449
+    },
+    {
+      "Data": "2025-04-01",
+      "Plano III": 31.7720871163,
+      "Plano IV": 1.050029951
+    },
+    {
+      "Data": "2025-05-02",
+      "Plano III": 32.4504040611,
+      "Plano IV": 1.074678857
+    },
+    {
+      "Data": "2025-06-02",
+      "Plano III": 32.9621071367,
+      "Plano IV": 1.107910671
+    },
+    {
+      "Data": "2025-07-01",
+      "Plano III": 33.1771165997,
+      "Plano IV": 1.098626534
+    },
+    {
+      "Data": "2025-08-01",
+      "Plano III": 33.1056392188,
+      "Plano IV": 1.090533402
+    },
+    {
+      "Data": "2025-09-01",
+      "Plano III": 33.5485744909,
+      "Plano IV": 1.097928245
+    },
+    {
+      "Data": "2025-10-01",
+      "Plano III": 34.0077921676,
+      "Plano IV": 1.114017139
+    },
+    {
+      "Data": "2025-11-03",
+      "Plano III": 34.3889990747,
+      "Plano IV": 1.123076594
+    },
+    {
+      "Data": "2025-12-01",
+      "Plano III": 34.9973856967,
+      "Plano IV": 1.144319636
+    },
+    {
+      "Data": "2026-01-02",
+      "Plano III": 35.2502990537,
+      "Plano IV": 1.145869723
+    },
+    {
+      "Data": "2026-02-02",
+      "Plano III": 35.8731668923,
+      "Plano IV": 1.169092559
+    },
+    {
+      "Data": "2026-03-02",
+      "Plano III": 36.281494899,
+      "Plano IV": 1.185934536
+    },
+    {
+      "Data": "2026-04-01",
+      "Plano III": 35.9717628354,
+      "Plano IV": 1.182781606
+    },
+    {
+      "Data": "2026-05-04",
+      "Plano III": 36.3719189447,
+      "Plano IV": 1.192233888
+    },
+    {
+      "Data": "2026-06-01",
+      "Plano III": 36.4743712262,
+      "Plano IV": 1.195183532
+    },
+    {
+      "Data": "2026-07-01",
+      "Plano III": 36.5754941645,
+      "Plano IV": 1.1986644846
+    }
   ]
 };
+
+DASHBOARD_DATA["Adesão Plano IV"] = [
+  {
+    "Data": "2024-05-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-06-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-07-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-08-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-09-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-10-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-11-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-12-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-01-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-02-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-03-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": 4,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-04-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": 2,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-05-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": 2,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-06-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": 3,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-07-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": 2,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-08-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-09-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": 4,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-10-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-11-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-12-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-01-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": 4,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-02-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": null,
+    "Com Plano": 3,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-03-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": 2,
+    "Com Plano": 4,
+    "Plano IV": 0.5,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-04-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": 1,
+    "Com Plano": 4,
+    "Plano IV": 0.75,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-05-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": 3,
+    "Com Plano": 5,
+    "Plano IV": 0.4,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-06-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": 3,
+    "Com Plano": null,
+    "Plano IV": 0,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-07-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": 1,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-08-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": 3,
+    "Com Plano": 1,
+    "Plano IV": 0.33,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-09-01",
+    "Patrocinadora": "Fundação Copel",
+    "Sem Plano": 1,
+    "Com Plano": null,
+    "Plano IV": 0,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-05-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-06-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-07-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-08-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-09-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 6,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-10-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 2,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-11-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 2,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-12-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-01-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 6,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-02-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 7,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-03-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 7,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-04-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 11,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-05-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 10,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-06-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 46,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-07-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": null,
+    "Com Plano": 47,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-08-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 7,
+    "Com Plano": 38,
+    "Plano IV": 0.8157894736842105,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-09-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 18,
+    "Com Plano": 55,
+    "Plano IV": 0.6727272727272726,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-10-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 11,
+    "Com Plano": 24,
+    "Plano IV": 0.5416666666666667,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-11-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 16,
+    "Com Plano": 26,
+    "Plano IV": 0.3846153846153846,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-12-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 3,
+    "Com Plano": 23,
+    "Plano IV": 0.8695652173913043,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-01-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 7,
+    "Com Plano": 27,
+    "Plano IV": 0.7407407407407408,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-02-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 5,
+    "Com Plano": 14,
+    "Plano IV": 0.6428571428571428,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-03-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 5,
+    "Com Plano": 16,
+    "Plano IV": 0.6875,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-04-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 20,
+    "Com Plano": 51,
+    "Plano IV": 0.607843137254902,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-05-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 15,
+    "Com Plano": 93,
+    "Plano IV": 0.8387096774193549,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-06-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 8,
+    "Com Plano": 31,
+    "Plano IV": 0.7419354838709676,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-07-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 3,
+    "Com Plano": 29,
+    "Plano IV": 0.896551724137931,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-08-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 13,
+    "Com Plano": 113,
+    "Plano IV": 0.8849557522123894,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-09-01",
+    "Patrocinadora": "Copel",
+    "Sem Plano": 2,
+    "Com Plano": 5,
+    "Plano IV": 0.6,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-05-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-06-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-07-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-08-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-09-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": 2,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-10-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-11-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2024-12-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-01-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-02-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-03-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": 3,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-04-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-05-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-06-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-07-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-08-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-09-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-10-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-11-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": 3,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2025-12-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-01-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-02-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-03-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-04-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": 1,
+    "Com Plano": 2,
+    "Plano IV": 0.5,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-05-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": 1,
+    "Com Plano": 2,
+    "Plano IV": 0.5,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-06-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-07-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": 1,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-08-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": 1,
+    "Plano IV": 1,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  },
+  {
+    "Data": "2026-09-01",
+    "Patrocinadora": "Lactec",
+    "Sem Plano": null,
+    "Com Plano": null,
+    "Plano IV": null,
+    "Plano III": null,
+    "Plano Unificado": null,
+    "Plano Família": null,
+    "Plano Pecúlio": null
+  }
+];

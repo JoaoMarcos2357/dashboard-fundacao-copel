@@ -484,6 +484,19 @@ body {
   margin-bottom: 24px;
 }
 
+.grid-full-standalone {
+  display: block;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.chart-body-wide {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
 /* Generic Chart Card */
 .chart-card {
   background: var(--bg-card);

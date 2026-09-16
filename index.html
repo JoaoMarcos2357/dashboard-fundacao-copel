@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR" data-theme="dark">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard Gerencial - Fundação Copel</title>
-  
+
   <!-- RemixIcon CDN -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-  
+
   <!-- Custom Styles -->
   <link rel="stylesheet" href="styles.css">
 
   <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 </head>
+
 <body>
 
   <!-- ==========================================================================
@@ -21,9 +23,6 @@
        ========================================================================== -->
   <aside class="sidebar">
     <div class="sidebar-header">
-      <div class="brand-icon">
-        <img src="https://media.licdn.com/dms/image/v2/D4D0BAQFAP-mnKWwtyA/company-logo_200_200/B4DZ.kwt8aJ8AI-/0/1785175662625/fcopel_logo?e=1786579200&v=beta&t=feEJdiLc_mqZ-_i9DMt-ZUpRsrB7a4GC9G5p34TMZdE" alt="Fundação Copel Logo">
-      </div>
       <div class="brand-info">
         <h1>Fundação Copel</h1>
         <p>Painel Gerencial Executivo</p>
@@ -83,9 +82,10 @@
         <button class="btn-icon" id="themeToggleBtn" title="Alternar Tema Claro/Escuro">
           <i class="ri-sun-line"></i>
         </button>
-        
+
         <!-- Fundação Copel Logo in Top Right Header -->
-        <img src="https://media.licdn.com/dms/image/v2/D4D0BAQFAP-mnKWwtyA/company-logo_200_200/B4DZ.kwt8aJ8AI-/0/1785175662625/fcopel_logo?e=1786579200&v=beta&t=feEJdiLc_mqZ-_i9DMt-ZUpRsrB7a4GC9G5p34TMZdE" alt="Logo Fundação Copel" class="header-logo">
+        <img src="https://fcopel.org.br/wp-content/themes/copel/assets/img/new-logo-negativa.png"
+          alt="Logo Fundação Copel" class="header-logo">
       </div>
     </header>
 
@@ -96,7 +96,7 @@
            PÁGINA 1: FINANCEIRO
            ==================================================================== -->
       <section id="page-financeiro" class="page-view active">
-        
+
         <!-- Filter Bar for Page 1 -->
         <div class="page-filter-bar">
           <div class="filter-group">
@@ -112,7 +112,8 @@
               <i class="ri-arrow-down-s-line select-arrow"></i>
             </div>
           </div>
-          <span style="font-size: 12px; color: var(--text-muted);">Aplica-se aos KPI Cards e aos 3 gráficos de linha abaixo</span>
+          <span style="font-size: 12px; color: var(--text-muted);">Aplica-se aos KPI Cards e aos gráficos da
+            página</span>
         </div>
 
         <!-- KPI Summary Cards -->
@@ -164,7 +165,7 @@
 
         <!-- 2x2 GRID CONTAINING THE 4 LINE CHARTS -->
         <div class="grid-2x2">
-          
+
           <!-- Chart 1: Patrimônio por Plano -->
           <div class="chart-card">
             <div class="chart-header">
@@ -195,7 +196,8 @@
           <div class="chart-card">
             <div class="chart-header">
               <div class="chart-title-area">
-                <h3><i class="ri-bar-chart-grouped-line" style="color: var(--accent-amber);"></i> Contribuição Média</h3>
+                <h3><i class="ri-bar-chart-grouped-line" style="color: var(--accent-amber);"></i> Contribuição Média
+                </h3>
                 <p>Eixo X: Data | Eixo Y: Descrição (Contribuição Média por Plano)</p>
               </div>
             </div>
@@ -218,13 +220,29 @@
           </div>
 
         </div>
+
+        <!-- Full-width Cota Chart at bottom -->
+        <div class="grid-full-standalone">
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-stock-line" style="color: var(--accent-cyan);"></i> Valor da Cota</h3>
+                <p>Eixo X: Data (>= 01/01/2020) | Eixo Y: Valor da Cota do Plano Selecionado</p>
+              </div>
+            </div>
+            <div class="chart-body chart-body-wide">
+              <canvas id="chartCota"></canvas>
+            </div>
+          </div>
+        </div>
+
       </section>
 
       <!-- ====================================================================
            PÁGINA 2: PARTICIPANTE E PATROCINADOR
            ==================================================================== -->
       <section id="page-participantes" class="page-view">
-        
+
         <!-- Filter Bar for Page 2 -->
         <div class="page-filter-bar">
           <div class="filter-group">
@@ -240,7 +258,8 @@
               <i class="ri-arrow-down-s-line select-arrow"></i>
             </div>
           </div>
-          <span style="font-size: 12px; color: var(--text-muted);">Aplica-se aos gráficos de Participantes, Patrocinadoras e Concessões</span>
+          <span style="font-size: 12px; color: var(--text-muted);">Aplica-se aos gráficos de Participantes,
+            Patrocinadoras e Concessões</span>
         </div>
 
         <div class="grid-2-col">
@@ -259,7 +278,8 @@
           <div class="chart-card">
             <div class="chart-header">
               <div class="chart-title-area">
-                <h3><i class="ri-building-line" style="color: var(--accent-purple);"></i> Participante por Patrocinador</h3>
+                <h3><i class="ri-building-line" style="color: var(--accent-purple);"></i> Participante por Patrocinador
+                </h3>
                 <p>Gráfico de barras empilhadas por empresa patrocinadora</p>
               </div>
             </div>
@@ -269,7 +289,7 @@
           </div>
         </div>
 
-        <div class="grid-full">
+        <div class="grid-2-col">
           <div class="chart-card">
             <div class="chart-header">
               <div class="chart-title-area">
@@ -281,6 +301,18 @@
               <canvas id="chartConcessoesAdesoes"></canvas>
             </div>
           </div>
+
+          <div class="chart-card">
+            <div class="chart-header">
+              <div class="chart-title-area">
+                <h3><i class="ri-user-received-2-line" style="color: var(--accent-cyan);"></i> Porcentagem de Adesão</h3>
+                <p>Eixo X: Data | Eixo Y: Taxa de Adesão | Legenda: Patrocinadora</p>
+              </div>
+            </div>
+            <div class="chart-body">
+              <canvas id="chartAdesaoPlanoIV"></canvas>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -289,7 +321,7 @@
            ==================================================================== -->
       <section id="page-movimentacoes" class="page-view">
         <div class="grid-2-col">
-          
+
           <!-- Resgates e Aportes -->
           <div class="chart-card">
             <div class="chart-header">
@@ -319,7 +351,7 @@
 
         <!-- Opções por Institutos (Filtro Exclusivo) + Tabela Médias de Benefício -->
         <div class="grid-2-col">
-          
+
           <div class="chart-card">
             <div class="chart-header">
               <div class="chart-title-area">
@@ -346,7 +378,8 @@
           <div class="chart-card">
             <div class="chart-header">
               <div class="chart-title-area">
-                <h3><i class="ri-time-line" style="color: var(--accent-emerald);"></i> Médias de Benefício & Tempo de Concessão</h3>
+                <h3><i class="ri-time-line" style="color: var(--accent-emerald);"></i> Médias de Benefício & Tempo de
+                  Concessão</h3>
                 <p>Indicadores consolidados por plano</p>
               </div>
             </div>
@@ -374,7 +407,7 @@
            ==================================================================== -->
       <section id="page-emprestimos" class="page-view">
         <div class="grid-2-col">
-          
+
           <div class="chart-card">
             <div class="chart-header">
               <div class="chart-title-area">
@@ -401,7 +434,7 @@
         </div>
 
         <div class="grid-2-col">
-          
+
           <div class="chart-card">
             <div class="chart-header">
               <div class="chart-title-area">
@@ -437,4 +470,5 @@
   <!-- Load Main App Logic -->
   <script src="app.js"></script>
 </body>
+
 </html>

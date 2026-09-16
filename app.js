@@ -345,6 +345,87 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  // 5. Valor da Cota (Filtered by Single Page Filter & Data >= 2020-01-01)
+  function renderChartCota(selectedPlan = 'Plano III') {
+    const rawData = DASHBOARD_DATA['Cota'] || [];
+    if (!rawData.length) return;
+
+    // Filter date >= 2020-01-01
+    const filteredData = rawData.filter(d => d.Data && d.Data >= '2020-01-01');
+    if (!filteredData.length) return;
+
+    const dates = filteredData.map(d => d.Data);
+    const formattedDates = dates.map(formatDate);
+
+    const planColorMap = {
+      'Plano III': colors.purple,
+      'Plano IV': colors.cyan,
+      'Plano Unificado': colors.blue,
+      'Plano Família': colors.emerald,
+      'Plano Pecúlio': colors.amber
+    };
+
+    const strokeColor = planColorMap[selectedPlan] || colors.purple;
+
+    const dataPoints = filteredData.map(d => {
+      const val = d[selectedPlan];
+      return (val !== undefined && val !== null) ? val : null;
+    });
+
+    const ctx = document.getElementById('chartCota').getContext('2d');
+    if (chartInstances.cota) chartInstances.cota.destroy();
+
+    chartInstances.cota = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: formattedDates,
+        datasets: [
+          {
+            label: `Valor da Cota (${selectedPlan})`,
+            data: dataPoints,
+            borderColor: strokeColor,
+            backgroundColor: strokeColor + '15',
+            borderWidth: 2.5,
+            fill: true,
+            tension: 0.35,
+            pointRadius: 2,
+            pointHoverRadius: 6,
+            spanGaps: true
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { position: 'top', labels: { usePointStyle: true, boxWidth: 8 } },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => {
+                const val = ctx.parsed.y;
+                if (val === null || val === undefined) return '';
+                return ` ${ctx.dataset.label}: ${val.toFixed(4).replace('.', ',')}`;
+              }
+            }
+          }
+        },
+        scales: {
+          x: {
+            grid: { color: 'rgba(255, 255, 255, 0.05)' },
+            ticks: { maxTicksLimit: 14 }
+          },
+          y: {
+            grid: { color: 'rgba(255, 255, 255, 0.05)' },
+            ticks: {
+              callback: (val) => val.toFixed(2).replace('.', ',')
+            }
+          }
+        }
+      }
+    });
+  }
+
   function initFinanceiroPage() {
     const filterSelect = document.getElementById('filterFinanceiroPlan');
     const currentPlan = filterSelect ? filterSelect.value : 'Plano III';
@@ -355,6 +436,7 @@ document.addEventListener('DOMContentLoaded', () => {
         renderChartPatrimonio(plan);
         renderChartContribBenef(plan);
         renderChartContribMedia(plan);
+        renderChartCota(plan);
         updateFinanceiroKPICards(plan);
       });
     }
@@ -363,6 +445,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderChartContribBenef(currentPlan);
     renderChartContribMedia(currentPlan);
     renderChartTaxaAtuarial();
+    renderChartCota(currentPlan);
     updateFinanceiroKPICards(currentPlan);
   }
 
@@ -379,12 +462,14 @@ document.addEventListener('DOMContentLoaded', () => {
         renderChartTipoParticipantes(plan);
         renderChartPatrocStacked(plan);
         renderChartConcessoesAdesoes(plan);
+        renderChartAdesaoPlanoIV(plan);
       });
     }
 
     renderChartTipoParticipantes(currentPlan);
     renderChartPatrocStacked(currentPlan);
     renderChartConcessoesAdesoes(currentPlan);
+    renderChartAdesaoPlanoIV(currentPlan);
   }
 
   function renderChartTipoParticipantes(selectedPlan = 'Plano III') {
@@ -400,7 +485,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const item = rawData.find(d => d.Ano === y && d['Tipo de Participante'] === type);
         if (!item) return 0;
         let val = item[selectedPlan];
-        if (val === undefined && selectedPlan === 'Plano Pecúlio') val = item['Pecúlio'];
+        if (val === undefined && (selectedPlan === 'Plano Pecúlio' || selectedPlan === 'Pecúlio')) val = item['Pecúlio'] ?? item['Plano Pecúlio'];
+        if (val === undefined && (selectedPlan === 'Plano Família' || selectedPlan === 'Família')) val = item['Plano Família'] ?? item['Família'];
         return val || 0;
       });
       return {
@@ -532,6 +618,91 @@ document.addEventListener('DOMContentLoaded', () => {
         scales: {
           x: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { maxTicksLimit: 12 } },
           y: { grid: { color: 'rgba(255, 255, 255, 0.05)' } }
+        }
+      }
+    });
+  }
+
+  // Adesão Plano IV - Line chart (filtered by page plan filter, legend = Patrocinadora)
+  function renderChartAdesaoPlanoIV(selectedPlan = 'Plano IV') {
+    const rawData = DASHBOARD_DATA['Adesão Plano IV'] || [];
+    if (!rawData.length) return;
+
+    // Map selected plan filter to column name in this dataset
+    const planColumnMap = {
+      'Plano IV': 'Plano IV',
+      'Plano III': 'Plano III',
+      'Plano Unificado': 'Plano Unificado',
+      'Plano Família': 'Plano Família',
+      'Plano Pecúlio': 'Plano Pecúlio',
+      'Pecúlio': 'Plano Pecúlio'
+    };
+    const planCol = planColumnMap[selectedPlan] || 'Plano IV';
+
+    const patrocinadoras = Array.from(new Set(rawData.map(d => d.Patrocinadora))).filter(Boolean).sort();
+    const allDates = Array.from(new Set(rawData.map(d => d.Data))).sort();
+    const formattedDates = allDates.map(formatDate);
+
+    const patrocColors = [colors.blue, colors.emerald, colors.amber, colors.rose, colors.purple, colors.cyan, colors.teal];
+
+    const datasets = patrocinadoras.map((patroc, idx) => {
+      const dataPoints = allDates.map(date => {
+        const item = rawData.find(d => d.Data === date && d.Patrocinadora === patroc);
+        if (!item) return null;
+        const val = item[planCol];
+        return (val !== undefined && val !== null) ? val : null;
+      });
+
+      return {
+        label: patroc,
+        data: dataPoints,
+        borderColor: patrocColors[idx % patrocColors.length],
+        backgroundColor: patrocColors[idx % patrocColors.length] + '20',
+        borderWidth: 2.5,
+        fill: false,
+        tension: 0.35,
+        pointRadius: 3,
+        pointHoverRadius: 6,
+        spanGaps: true
+      };
+    });
+
+    const ctx = document.getElementById('chartAdesaoPlanoIV').getContext('2d');
+    if (chartInstances.adesaoPlanoIV) chartInstances.adesaoPlanoIV.destroy();
+
+    chartInstances.adesaoPlanoIV = new Chart(ctx, {
+      type: 'line',
+      data: { labels: formattedDates, datasets },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { position: 'top', labels: { usePointStyle: true, boxWidth: 8 } },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => {
+                const val = ctx.parsed.y;
+                if (val === null || val === undefined) return '';
+                const pct = (val * 100).toFixed(1).replace('.', ',');
+                return ` ${ctx.dataset.label}: ${pct}%`;
+              }
+            }
+          }
+        },
+        scales: {
+          x: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { maxTicksLimit: 12 } },
+          y: {
+            grid: { color: 'rgba(255, 255, 255, 0.05)' },
+            ticks: {
+              callback: (val) => {
+                const pct = (val * 100).toFixed(0);
+                return `${pct}%`;
+              }
+            },
+            min: 0,
+            max: 1.15
+          }
         }
       }
     });
@@ -810,9 +981,9 @@ document.addEventListener('DOMContentLoaded', () => {
       data: {
         labels: dates,
         datasets: [
-          { label: 'Unificado', data: rawData.map(d => d.Unificado), borderColor: colors.blue, tension: 0.3 },
-          { label: 'Capitalização', data: rawData.map(d => d.Capitalização), borderColor: colors.purple, tension: 0.3 },
-          { label: 'Mutualismo', data: rawData.map(d => d.Mutualismo), borderColor: colors.emerald, tension: 0.3 }
+          { label: 'Unificado', data: rawData.map(d => d.Unificado), borderColor: colors.rose, backgroundColor: colors.rose, tension: 0.3 },
+          { label: 'Capitalização', data: rawData.map(d => d.Capitalização), borderColor: colors.blue, backgroundColor: colors.blue, tension: 0.3 },
+          { label: 'Mutualismo', data: rawData.map(d => d.Mutualismo), borderColor: colors.amber, backgroundColor: colors.amber, tension: 0.3 }
         ]
       },
       options: {
@@ -837,16 +1008,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const dates = Array.from(new Set(rawData.map(d => d.Data))).sort();
     const labels = dates.map(formatDate);
-    const plans = Array.from(new Set(rawData.map(d => d.Plano))).filter(Boolean);
-    const planColors = [colors.rose, colors.amber, colors.cyan];
+    const planOrder = ['Unificado', 'Capitalização', 'Mutualismo'];
+    const plans = Array.from(new Set(rawData.map(d => d.Plano))).filter(Boolean)
+      .sort((a, b) => planOrder.indexOf(a) - planOrder.indexOf(b));
 
-    const datasets = plans.map((p, i) => ({
+    const categoryColors = {
+      'Unificado': colors.rose,      // Vermelho
+      'Capitalização': colors.blue,  // Azul
+      'Mutualismo': colors.amber     // Amarelo
+    };
+
+    const datasets = plans.map((p) => ({
       label: p,
       data: dates.map(dt => {
         const item = rawData.find(d => d.Data === dt && d.Plano === p);
         return item ? item['Inadimplência'] : null;
       }),
-      borderColor: planColors[i % planColors.length],
+      borderColor: categoryColors[p] || colors.purple,
+      backgroundColor: categoryColors[p] || colors.purple,
       borderWidth: 2.5,
       tension: 0.3
     }));
